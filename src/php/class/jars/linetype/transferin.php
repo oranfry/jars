@@ -1,5 +1,5 @@
 <?php
-namespace linetype;
+namespace jars\linetype;
 
 class transferin extends \Linetype
 {

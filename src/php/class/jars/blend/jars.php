@@ -1,5 +1,5 @@
 <?php
-namespace blend;
+namespace jars\blend;
 
 class jars extends \Blend
 {
@@ -15,7 +15,7 @@ class jars extends \Blend
 
         sort($jars);
 
-        $this->linetypes = ['jartransaction', 'transferin', 'transferout'];
+        $this->linetypes = ['transaction', 'transferin', 'transferout'];
         $this->hide_types = ['transferout' => 'transferin'];
         $this->groupby = 'date';
         $this->fields = [

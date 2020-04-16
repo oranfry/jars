@@ -1,12 +1,13 @@
 <?php
-namespace linetype;
+namespace jars\linetype;
 
-class transfer extends \Linetype
+class transferout extends \Linetype
 {
     public function __construct()
     {
         $this->table = 'transfer';
         $this->label = 'Internal Transfer';
+        $this->icon = 'arrowleftright';
         $this->fields = [
             (object) [
                 'name' => 'icon',
@@ -18,10 +19,11 @@ class transfer extends \Linetype
                 'name' => 'date',
                 'type' => 'date',
                 'id' => true,
+                'groupable' => true,
                 'fuse' => 't.date',
             ],
             (object) [
-                'name' => 'from',
+                'name' => 'jar',
                 'type' => 'text',
                 'fuse' => 't.fromjar',
             ],
@@ -34,14 +36,15 @@ class transfer extends \Linetype
                 'name' => 'amount',
                 'type' => 'number',
                 'dp' => 2,
-                'fuse' => 't.amount',
+                'fuse' => '-t.amount',
+                'summary' => 'sum',
             ],
         ];
         $this->unfuse_fields = [
             't.date' => ':date',
-            't.fromjar' => ':from',
             't.tojar' => ':to',
-            't.amount' => ':amount',
+            't.fromjar' => ':jar',
+            't.amount' => '0 - :amount',
         ];
     }
 
@@ -49,8 +52,8 @@ class transfer extends \Linetype
     {
         $suggested_values = [];
 
-        $suggested_values['from'] = get_values('transfer', 'fromjar');
         $suggested_values['to'] = get_values('transfer', 'tojar');
+        $suggested_values['jar'] = get_values('transfer', 'fromjar');
 
         return $suggested_values;
     }
@@ -63,16 +66,16 @@ class transfer extends \Linetype
             $errors[] = 'no date';
         }
 
-        if ($line->from == null) {
-            $errors[] = 'no from';
-        }
-
-        if ($line->to == null) {
-            $errors[] = 'no to';
+        if ($line->jar == null) {
+            $errors[] = 'no jar';
         }
 
         if ($line->amount == null) {
             $errors[] = 'no amount';
+        }
+
+        if ($line->amount > 0) {
+            $errors[] = 'amount is positive';
         }
 
         return $errors;

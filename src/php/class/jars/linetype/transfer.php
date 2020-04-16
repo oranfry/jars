@@ -1,13 +1,12 @@
 <?php
-namespace linetype;
+namespace jars\linetype;
 
-class transferout extends \Linetype
+class transfer extends \Linetype
 {
     public function __construct()
     {
         $this->table = 'transfer';
         $this->label = 'Internal Transfer';
-        $this->icon = 'arrowleftright';
         $this->fields = [
             (object) [
                 'name' => 'icon',
@@ -19,11 +18,10 @@ class transferout extends \Linetype
                 'name' => 'date',
                 'type' => 'date',
                 'id' => true,
-                'groupable' => true,
                 'fuse' => 't.date',
             ],
             (object) [
-                'name' => 'jar',
+                'name' => 'from',
                 'type' => 'text',
                 'fuse' => 't.fromjar',
             ],
@@ -36,15 +34,14 @@ class transferout extends \Linetype
                 'name' => 'amount',
                 'type' => 'number',
                 'dp' => 2,
-                'fuse' => '-t.amount',
-                'summary' => 'sum',
+                'fuse' => 't.amount',
             ],
         ];
         $this->unfuse_fields = [
             't.date' => ':date',
+            't.fromjar' => ':from',
             't.tojar' => ':to',
-            't.fromjar' => ':jar',
-            't.amount' => '0 - :amount',
+            't.amount' => ':amount',
         ];
     }
 
@@ -52,8 +49,8 @@ class transferout extends \Linetype
     {
         $suggested_values = [];
 
+        $suggested_values['from'] = get_values('transfer', 'fromjar');
         $suggested_values['to'] = get_values('transfer', 'tojar');
-        $suggested_values['jar'] = get_values('transfer', 'fromjar');
 
         return $suggested_values;
     }
@@ -66,16 +63,16 @@ class transferout extends \Linetype
             $errors[] = 'no date';
         }
 
-        if ($line->jar == null) {
-            $errors[] = 'no jar';
+        if ($line->from == null) {
+            $errors[] = 'no from';
+        }
+
+        if ($line->to == null) {
+            $errors[] = 'no to';
         }
 
         if ($line->amount == null) {
             $errors[] = 'no amount';
-        }
-
-        if ($line->amount > 0) {
-            $errors[] = 'amount is positive';
         }
 
         return $errors;

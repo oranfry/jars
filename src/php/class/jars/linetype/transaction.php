@@ -1,7 +1,7 @@
 <?php
-namespace linetype;
+namespace jars\linetype;
 
-class jartransaction extends \Linetype
+class transaction extends \Linetype
 {
     public function __construct()
     {

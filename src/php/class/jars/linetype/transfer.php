@@ -18,30 +18,30 @@ class transfer extends \Linetype
                 'name' => 'date',
                 'type' => 'date',
                 'id' => true,
-                'fuse' => 't.date',
+                'fuse' => '{t}.date',
             ],
             (object) [
                 'name' => 'from',
                 'type' => 'text',
-                'fuse' => 't.fromjar',
+                'fuse' => '{t}.fromjar',
             ],
             (object) [
                 'name' => 'to',
                 'type' => 'text',
-                'fuse' => 't.tojar',
+                'fuse' => '{t}.tojar',
             ],
             (object) [
                 'name' => 'amount',
                 'type' => 'number',
                 'dp' => 2,
-                'fuse' => 't.amount',
+                'fuse' => '{t}.amount',
             ],
         ];
         $this->unfuse_fields = [
-            't.date' => ':date',
-            't.fromjar' => ':from',
-            't.tojar' => ':to',
-            't.amount' => ':amount',
+            '{t}.date' => ':{t}_date',
+            '{t}.fromjar' => ':{t}_from',
+            '{t}.tojar' => ':{t}_to',
+            '{t}.amount' => ':{t}_amount',
         ];
     }
 

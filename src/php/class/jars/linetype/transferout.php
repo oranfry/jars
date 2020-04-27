@@ -7,12 +7,12 @@ class transferout extends \Linetype
     {
         $this->table = 'transfer';
         $this->label = 'Internal Transfer';
-        $this->icon = 'arrowleftright';
+        $this->icon = 'arrowleft';
         $this->fields = [
             (object) [
                 'name' => 'icon',
                 'type' => 'icon',
-                'fuse' => "'arrowleftright'",
+                'fuse' => "'arrowleft'",
                 'derived' => true,
             ],
             (object) [
@@ -20,31 +20,31 @@ class transferout extends \Linetype
                 'type' => 'date',
                 'id' => true,
                 'groupable' => true,
-                'fuse' => 't.date',
+                'fuse' => '{t}.date',
             ],
             (object) [
                 'name' => 'jar',
                 'type' => 'text',
-                'fuse' => 't.fromjar',
+                'fuse' => '{t}.fromjar',
             ],
             (object) [
                 'name' => 'to',
                 'type' => 'text',
-                'fuse' => 't.tojar',
+                'fuse' => '{t}.tojar',
             ],
             (object) [
                 'name' => 'amount',
                 'type' => 'number',
                 'dp' => 2,
-                'fuse' => '-t.amount',
+                'fuse' => '-{t}.amount',
                 'summary' => 'sum',
             ],
         ];
         $this->unfuse_fields = [
-            't.date' => ':date',
-            't.tojar' => ':to',
-            't.fromjar' => ':jar',
-            't.amount' => '0 - :amount',
+            '{t}.date' => ':{t}_date',
+            '{t}.tojar' => ':{t}_to',
+            '{t}.fromjar' => ':{t}_jar',
+            '{t}.amount' => '0 - :{t}_amount',
         ];
     }
 

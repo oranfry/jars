@@ -20,46 +20,46 @@ class transaction extends \Linetype
                 'type' => 'date',
                 'id' => true,
                 'groupable' => true,
-                'fuse' => 't.date',
+                'fuse' => '{t}.date',
             ],
             (object) [
                 'name' => 'jar',
                 'type' => 'text',
                 'suggest' => true,
                 'groupable' => true,
-                'fuse' => 't.jar',
+                'fuse' => '{t}.jar',
             ],
             (object) [
                 'name' => 'account',
                 'type' => 'text',
                 'suggest' => true,
-                'fuse' => 't.account',
+                'fuse' => '{t}.account',
             ],
             (object) [
                 'name' => 'description',
                 'type' => 'text',
-                'fuse' => 't.description',
+                'fuse' => '{t}.description',
             ],
             (object) [
                 'name' => 'amount',
                 'type' => 'number',
                 'dp' => 2,
                 'summary' => 'sum',
-                'fuse' => 't.amount',
+                'fuse' => '{t}.amount',
             ],
             (object) [
                 'name' => 'broken',
                 'type' => 'text',
                 'derived' => true,
-                'fuse' => "if (t.jar is null or t.jar = '', 'broken', '')",
+                'fuse' => "if ({t}.jar is null or {t}.jar = '', 'broken', '')",
             ],
         ];
         $this->unfuse_fields = [
-            't.date' => ':date',
-            't.jar' => ':jar',
-            't.account' => ':account',
-            't.description' => ':description',
-            't.amount' => ':amount',
+            '{t}.date' => ':{t}_date',
+            '{t}.jar' => ':{t}_jar',
+            '{t}.account' => ':{t}_account',
+            '{t}.description' => ':{t}_description',
+            '{t}.amount' => ':{t}_amount',
         ];
     }
 

@@ -52,8 +52,8 @@ class transferout extends \Linetype
     {
         $suggested_values = [];
 
-        $suggested_values['to'] = get_values('transfer', 'tojar');
-        $suggested_values['jar'] = get_values('transfer', 'fromjar');
+        $suggested_values['to'] = get_values('jar', 'jar');
+        $suggested_values['jar'] = get_values('jar', 'jar');
 
         return $suggested_values;
     }

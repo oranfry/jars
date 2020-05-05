@@ -49,8 +49,8 @@ class transfer extends \Linetype
     {
         $suggested_values = [];
 
-        $suggested_values['from'] = get_values('transfer', 'fromjar');
-        $suggested_values['to'] = get_values('transfer', 'tojar');
+        $suggested_values['from'] = get_values('jar', 'jar');
+        $suggested_values['to'] = get_values('jar', 'jar');
 
         return $suggested_values;
     }

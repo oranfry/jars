@@ -65,12 +65,7 @@ class transaction extends \Linetype
 
     public function get_suggested_values()
     {
-        $jars = array_values(array_unique(array_merge(
-            get_values('transaction', 'jar'),
-            get_values('transfer', 'fromjar'),
-            get_values('transfer', 'tojar')
-        )));
-
+        $jars = get_values('jar', 'jar');
         sort($jars);
 
         $suggested_values = [];

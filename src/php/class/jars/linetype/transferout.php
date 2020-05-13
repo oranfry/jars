@@ -67,7 +67,12 @@ class transferout extends \Linetype
         }
 
         if ($line->jar == null) {
-            $errors[] = 'no jar';
+            $errors[] = 'no to jar';
+        }
+
+
+        if ($line->to == null) {
+            $errors[] = 'no from jar';
         }
 
         if ($line->amount == null) {

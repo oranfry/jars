@@ -7,6 +7,7 @@ class transfer extends \Linetype
     {
         $this->table = 'transfer';
         $this->label = 'Internal Transfer';
+        $this->icon = 'arrowleftright';
         $this->fields = [
             (object) [
                 'name' => 'icon',
@@ -64,11 +65,11 @@ class transfer extends \Linetype
         }
 
         if ($line->from == null) {
-            $errors[] = 'no from';
+            $errors[] = 'no from jar';
         }
 
         if ($line->to == null) {
-            $errors[] = 'no to';
+            $errors[] = 'no to jar';
         }
 
         if ($line->amount == null) {

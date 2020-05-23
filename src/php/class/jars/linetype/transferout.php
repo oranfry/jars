@@ -62,20 +62,20 @@ class transferout extends \Linetype
     {
         $errors = [];
 
-        if ($line->date == null) {
+        if (!@$line->date) {
             $errors[] = 'no date';
         }
 
-        if ($line->jar == null) {
+        if (!@$line->jar) {
             $errors[] = 'no to jar';
         }
 
 
-        if ($line->to == null) {
+        if (!@$line->to) {
             $errors[] = 'no from jar';
         }
 
-        if ($line->amount == null) {
+        if (!@$line->amount) {
             $errors[] = 'no amount';
         }
 

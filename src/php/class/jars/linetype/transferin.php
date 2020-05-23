@@ -63,19 +63,19 @@ class transferin extends \Linetype
     {
         $errors = [];
 
-        if ($line->date == null) {
+        if (!@$line->date) {
             $errors[] = 'no date';
         }
 
-        if ($line->from == null) {
+        if (!@$line->from) {
             $errors[] = 'no from jar';
         }
 
-        if ($line->jar == null) {
+        if (!@$line->jar) {
             $errors[] = 'no to jar';
         }
 
-        if ($line->amount == null) {
+        if (!(float)@$line->amount) {
             $errors[] = 'no amount';
         }
 

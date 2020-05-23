@@ -60,19 +60,19 @@ class transfer extends \Linetype
     {
         $errors = [];
 
-        if ($line->date == null) {
+        if (!@$line->date) {
             $errors[] = 'no date';
         }
 
-        if ($line->from == null) {
+        if (!@$line->from) {
             $errors[] = 'no from jar';
         }
 
-        if ($line->to == null) {
+        if (!@$line->to) {
             $errors[] = 'no to jar';
         }
 
-        if ($line->amount == null) {
+        if (!@$line->amount) {
             $errors[] = 'no amount';
         }
 

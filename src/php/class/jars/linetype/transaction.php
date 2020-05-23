@@ -80,15 +80,15 @@ class transaction extends \Linetype
     {
         $errors = [];
 
-        if ($line->date == null) {
+        if (!@$line->date) {
             $errors[] = 'no date';
         }
 
-        if ($line->jar == null) {
+        if (!@$line->jar) {
             $errors[] = 'no jar';
         }
 
-        if ($line->amount == null) {
+        if (!@$line->amount) {
             $errors[] = 'no price';
         }
 

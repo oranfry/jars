@@ -7,10 +7,6 @@ class jars extends \Blend
 
     public function __construct()
     {
-        $jars = get_values('jar', 'jar');
-
-        sort($jars);
-
         $this->linetypes = ['transaction', 'transferin', 'transferout'];
         $this->hide_types = ['transferout' => 'transferin'];
         $this->groupby = 'date';
@@ -29,7 +25,12 @@ class jars extends \Blend
             (object) [
                 'name' => 'jar',
                 'type' => 'text',
-                'filteroptions' => $jars,
+                'filteroptions' => function ($token) {
+                    $jars = get_values($token, 'jar', 'jar');
+                    sort($jars);
+
+                    return $jars;
+                },
                 'groupable' => true,
                 'main' => true,
             ],

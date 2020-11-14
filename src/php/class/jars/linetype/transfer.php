@@ -46,12 +46,12 @@ class transfer extends \Linetype
         ];
     }
 
-    public function get_suggested_values()
+    public function get_suggested_values($token)
     {
         $suggested_values = [];
 
-        $suggested_values['from'] = get_values('jar', 'jar');
-        $suggested_values['to'] = get_values('jar', 'jar');
+        $suggested_values['from'] = get_values($token, 'jar', 'jar');
+        $suggested_values['to'] = get_values($token, 'jar', 'jar');
 
         return $suggested_values;
     }

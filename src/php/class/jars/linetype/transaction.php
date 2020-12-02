@@ -55,11 +55,26 @@ class transaction extends \Linetype
             ],
         ];
         $this->unfuse_fields = [
-            '{t}.date' => ':{t}_date',
-            '{t}.jar' => ':{t}_jar',
-            '{t}.account' => ':{t}_account',
-            '{t}.description' => ':{t}_description',
-            '{t}.amount' => ':{t}_amount',
+            '{t}.date' => (object) [
+                'expression' => ':{t}_date',
+                'type' => 'date',
+            ],
+            '{t}.jar' => (object) [
+                'expression' => ':{t}_jar',
+                'type' => 'varchar(40)',
+            ],
+            '{t}.account' => (object) [
+                'expression' => ':{t}_account',
+                'type' => 'varchar(40)',
+            ],
+            '{t}.description' => (object) [
+                'expression' => ':{t}_description',
+                'type' => 'varchar(255)',
+            ],
+            '{t}.amount' => (object) [
+                'expression' => ':{t}_amount',
+                'type' => 'decimal(18, 2)',
+            ],
         ];
     }
 

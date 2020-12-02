@@ -42,10 +42,22 @@ class transferin extends \Linetype
             ],
         ];
         $this->unfuse_fields = [
-            '{t}.date' => ':{t}_date',
-            '{t}.tojar' => ':{t}_jar',
-            '{t}.fromjar' => ':{t}_from',
-            '{t}.amount' => ':{t}_amount',
+            '{t}.date' => (object) [
+                'expression' => ':{t}_date',
+                'type' => 'date',
+            ],
+            '{t}.tojar' => (object) [
+                'expression' => ':{t}_jar',
+                'type' => 'varchar(40)',
+            ],
+            '{t}.fromjar' => (object) [
+                'expression' => ':{t}_from',
+                'type' => 'varchar(40)',
+            ],
+            '{t}.amount' => (object) [
+                'expression' => ':{t}_amount',
+                'type' => 'decimal(18, 2)',
+            ],
         ];
     }
 

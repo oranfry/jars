@@ -22,8 +22,14 @@ class jar extends \Linetype
         ];
 
         $this->unfuse_fields = [
-            '{t}.jar' => ':{t}_jar',
-            '{t}.description' => ':{t}_description',
+            '{t}.jar' => (object) [
+                'expression' => ':{t}_jar',
+                'type' => 'varchar(40)',
+            ],
+            '{t}.description' => (object) [
+                'expression' => ':{t}_description',
+                'type' => 'varchar(255)',
+            ],
         ];
     }
 

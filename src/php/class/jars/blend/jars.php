@@ -12,8 +12,8 @@ class jars extends \Blend
         $this->groupby = 'date';
         $this->fields = [
             (object) [
-                'name' => 'icon',
-                'type' => 'icon',
+                'name' => 'type',
+                'type' => 'text',
                 'derived' => true,
             ],
             (object) [

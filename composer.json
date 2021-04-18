@@ -1,0 +1,7 @@
+{
+    "name": "oranfry/jars",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {"jars\\": "src/php/class/jars"}
+    }
+}

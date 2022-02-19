@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1dd6e68a3b4c0bb2ca9cb164d1aa308",
+    "content-hash": "41fec604d015af6d08f2352e936fae14",
     "packages": [
         {
             "name": "oranfry/jars-admin",

@@ -1,2 +1,2 @@
 # jars
-Jars Package for Blends
+Jars Server Bundle 

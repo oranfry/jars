@@ -1,0 +1,44 @@
+{
+    "name": "oranfry/jars",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:oranfry/jars-admin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:oranfry/jars-cli.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:oranfry/jars-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:oranfry/jars-contracts.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:oranfry/jars-core.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:oranfry/jars-http.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:oranfry/obex.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:oranfry/subsimple.git"
+        }
+    ],
+    "require": {
+        "oranfry/jars-admin": "*",
+        "oranfry/jars-cli": "*",
+        "oranfry/jars-http": "*"
+    }
+}

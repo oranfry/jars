@@ -1,5 +1,7 @@
 #!/usr/bin/php
 <?php
 
+const BIN_HOME = __DIR__ . '/bin';
+
 require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/vendor/oranfry/jars-test/dotest.php';

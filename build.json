@@ -1,0 +1,40 @@
+{
+    "into": "public/build",
+    "collect": {
+        "icon": {
+            "directory": "src/icon",
+            "into": "img/icon"
+        }
+    },
+    "combine": {
+        "js": {
+            "basename": "app",
+            "extension": "js",
+            "files": [
+                "node_modules/jquery/dist/jquery.min.js",
+                "src/js/jars/admin/cookies.js",
+                "src/js/jars/admin/report.js",
+                "src/js/jars/admin/selecting.js",
+                "src/js/jars/admin/login.js"
+            ],
+            "into": "js",
+            "wrapper": {
+                "open": "src/js/jars/admin/scope-open.js",
+                "close": "src/js/jars/admin/scope-close.js"
+            }
+        },
+        "css": {
+            "basename": "styles",
+            "extension": "css",
+            "files": [
+                "src/css/jars/admin/jars.css",
+                "src/css/jars/admin/nav.css",
+                "src/css/jars/admin/forms.css",
+                "src/css/jars/admin/easy-tables.css",
+                "src/css/jars/admin/icon.css",
+                "php:src/php/script/jars/admin/iconcss.php"
+            ],
+            "into": "css"
+        }
+    }
+}

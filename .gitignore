@@ -1,3 +1,7 @@
-db
-portals
+node_modules
+public/build
+var
 vendor
+conf.d
+
+latest.json

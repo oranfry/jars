@@ -1,0 +1,109 @@
+#!/usr/bin/php
+<?php
+
+define('APP_HOME', dirname(__DIR__));
+
+require APP_HOME . '/vendor/oranfry/jars-cli/lib.php';
+
+$command = array_shift($argv);
+$rem_argv = [];
+$flags = [];
+
+$parameters = [
+    'db-home' => (object) [],
+    'password' => (object) ['short' => 'p'],
+    'portal' => (object) [],
+    'portal-home' => (object) [],
+    'token' => (object) ['short' => 't'],
+    'username' => (object) ['short' => 'u'],
+];
+
+$arguments = array_map(fn () => null, $parameters);
+
+for ($i = 0; $i < count($argv); $i++) {
+    $matches = [];
+
+    foreach ($parameters as $param => $details) {
+        $pattern = '--' . str_replace('_', '-', $param) . '(?:=(.*))?';
+
+        if ($short = @$details->short) {
+            $pattern = '(?:-' . $short . '|' . $pattern . ')';
+        }
+
+        $pattern = '/^' . $pattern . '$/';
+
+        if (preg_match($pattern, $argv[$i], $matches)) {
+            $arguments[$param] = @$matches[1] ?? @$argv[++$i];
+
+            continue 2;
+        }
+    }
+
+    if (preg_match('/^-([a-zA-Z])$/', $argv[$i], $groups) || preg_match('/^--([a-zA-Z-]+)$/', $argv[$i], $groups)) {
+        $flags[] = $groups[1];
+
+        continue;
+    }
+
+    $rem_argv[] = $argv[$i];
+}
+
+$argv = array_merge([$command], $rem_argv);
+$errors = [];
+
+if (isset($arguments['portal-home'])) {
+    define('PORTAL_HOME', $arguments['portal-home']);
+}
+
+if (isset($arguments['db-home'])) {
+    define('DB_HOME', $arguments['db-home']);
+}
+
+if (isset($arguments['portal'])) {
+    if (!defined('PORTAL_HOME')) {
+        define('PORTAL_HOME', APP_HOME . '/var/' . $arguments['portal'] . '/portal');
+    }
+
+    if (!defined('DB_HOME')) {
+        define('DB_HOME', APP_HOME . '/var/' . $arguments['portal'] . '/db');
+    }
+}
+
+if (!defined('PORTAL_HOME') || !defined('DB_HOME')) {
+    $errors[] = 'could not determine portal-home and/or db-home';
+}
+
+if (count($errors)) {
+    error_log(implode('; ', $errors));
+    usage($command, $parameters);
+    exit(1);
+}
+
+if ($arguments['token']) {
+    define('AUTH_TOKEN', $arguments['token']);
+} else {
+    if (!$arguments['password']) {
+        if (!$arguments['username']) {
+            $arguments['username'] = readline('Username: ');
+        }
+
+        echo "Password: ";
+        $arguments['password'] = read_password();
+    }
+
+    if (!$arguments['username']) {
+        error_log('Please supply username on the command line when supplying password that way');
+        usage($command, $parameters);
+        exit(1);
+    }
+
+    define('USERNAME', $arguments['username']);
+    define('PASSWORD', $arguments['password']);
+}
+
+define('FLAGS', $flags);
+
+unset($arguments, $command, $details, $flags, $i, $matches, $param, $parameters, $pattern, $rem_argv, $short);
+
+require APP_HOME . '/vendor/autoload.php';
+require APP_HOME . '/vendor/oranfry/subsimple/subsimple.php';

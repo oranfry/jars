@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "41fec604d015af6d08f2352e936fae14",
+    "content-hash": "a60544890c5e6aac47a5ec0e5f1f8c2a",
     "packages": [
         {
             "name": "oranfry/jars-admin",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "ae2ca8252ccdf5692f1ac84a99fe4514c640368c"
+                "reference": "251b437669343027b06c97a7fd31fb6d44b1f60b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/ae2ca8252ccdf5692f1ac84a99fe4514c640368c",
-                "reference": "ae2ca8252ccdf5692f1ac84a99fe4514c640368c",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/251b437669343027b06c97a7fd31fb6d44b1f60b",
+                "reference": "251b437669343027b06c97a7fd31fb6d44b1f60b",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +37,7 @@
                 "source": "https://github.com/oranfry/jars-admin/tree/master",
                 "issues": "https://github.com/oranfry/jars-admin/issues"
             },
-            "time": "2022-02-19T09:57:20+00:00"
+            "time": "2022-02-28T04:27:47+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -45,12 +45,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-cli.git",
-                "reference": "87dfd62813796af39bea5431fbbc0f9a7a85f519"
+                "reference": "1ae9bed98a52df12901da96a6ad5d8550e15157b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-cli/zipball/87dfd62813796af39bea5431fbbc0f9a7a85f519",
-                "reference": "87dfd62813796af39bea5431fbbc0f9a7a85f519",
+                "url": "https://api.github.com/repos/oranfry/jars-cli/zipball/1ae9bed98a52df12901da96a6ad5d8550e15157b",
+                "reference": "1ae9bed98a52df12901da96a6ad5d8550e15157b",
                 "shasum": ""
             },
             "require": {
@@ -68,7 +68,7 @@
                 "source": "https://github.com/oranfry/jars-cli/tree/master",
                 "issues": "https://github.com/oranfry/jars-cli/issues"
             },
-            "time": "2022-02-19T09:56:10+00:00"
+            "time": "2022-02-28T04:40:44+00:00"
         },
         {
             "name": "oranfry/jars-client",
@@ -161,12 +161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-http.git",
-                "reference": "321d5d9c8fa7a0c97fdac6f9f0016901bd90e732"
+                "reference": "4b112e54fd852d942a03d19e47247891c4612070"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-http/zipball/321d5d9c8fa7a0c97fdac6f9f0016901bd90e732",
-                "reference": "321d5d9c8fa7a0c97fdac6f9f0016901bd90e732",
+                "url": "https://api.github.com/repos/oranfry/jars-http/zipball/4b112e54fd852d942a03d19e47247891c4612070",
+                "reference": "4b112e54fd852d942a03d19e47247891c4612070",
                 "shasum": ""
             },
             "require": {
@@ -184,7 +184,52 @@
                 "source": "https://github.com/oranfry/jars-http/tree/master",
                 "issues": "https://github.com/oranfry/jars-http/issues"
             },
-            "time": "2022-02-19T10:19:47+00:00"
+            "time": "2022-02-28T04:30:50+00:00"
+        },
+        {
+            "name": "oranfry/jars-refreshd",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oranfry/jars-refreshd.git",
+                "reference": "462fbb4838da82ba38d2c3742512a1eb0c6ed5d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oranfry/jars-refreshd/zipball/462fbb4838da82ba38d2c3742512a1eb0c6ed5d0",
+                "reference": "462fbb4838da82ba38d2c3742512a1eb0c6ed5d0",
+                "shasum": ""
+            },
+            "require": {
+                "oranfry/jars-core": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jars\\refresh\\": "classes"
+                }
+            },
+            "support": {
+                "source": "https://github.com/oranfry/jars-refreshd/tree/main",
+                "issues": "https://github.com/oranfry/jars-refreshd/issues"
+            },
+            "time": "2022-02-28T04:35:03+00:00"
+        },
+        {
+            "name": "oranfry/jars-test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@emerg.co:jars-test.git",
+                "reference": "7d8ee81b848c530cf513ab81fc4d43ff7e24907b"
+            },
+            "require": {
+                "oranfry/jars-core": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "time": "2022-02-28T04:39:27+00:00"
         },
         {
             "name": "oranfry/obex",
@@ -219,12 +264,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "46700b4b411363f33d198d883b27787f46bee4d5"
+                "reference": "a0139ae5c9f91312018939584053a4d173320ed9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/46700b4b411363f33d198d883b27787f46bee4d5",
-                "reference": "46700b4b411363f33d198d883b27787f46bee4d5",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/a0139ae5c9f91312018939584053a4d173320ed9",
+                "reference": "a0139ae5c9f91312018939584053a4d173320ed9",
                 "shasum": ""
             },
             "default-branch": true,
@@ -238,7 +283,7 @@
                 "source": "https://github.com/oranfry/subsimple/tree/master",
                 "issues": "https://github.com/oranfry/subsimple/issues"
             },
-            "time": "2022-02-17T10:32:00+00:00"
+            "time": "2022-02-28T04:25:42+00:00"
         }
     ],
     "packages-dev": [],

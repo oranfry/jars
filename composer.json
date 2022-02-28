@@ -29,6 +29,14 @@
         },
         {
             "type": "vcs",
+            "url": "https:\/\/github.com\/oranfry\/jars-refreshd.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@emerg.co:jars-test.git"
+        },
+        {
+            "type": "vcs",
             "url": "https:\/\/github.com\/oranfry\/obex.git"
         },
         {
@@ -39,6 +47,13 @@
     "require": {
         "oranfry\/jars-admin": "*",
         "oranfry\/jars-cli": "*",
-        "oranfry\/jars-http": "*"
+        "oranfry\/jars-http": "*",
+        "oranfry\/jars-refreshd": "*",
+        "oranfry\/jars-test": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jars\\": "classes"
+        }
     }
 }

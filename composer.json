@@ -58,7 +58,7 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "cd vendor\/oranfry\/jars-test\/portal && @composer install"
+            "cd vendor\/oranfry\/jars-test\/portal && composer install"
         ]
     }
 }

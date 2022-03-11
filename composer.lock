@@ -131,12 +131,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "14f4f04dc60579fb51ba8cf36a44efb1405adc55"
+                "reference": "b68ec7bc8ab05fdc9b6c8b58ba27011f440fef02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/14f4f04dc60579fb51ba8cf36a44efb1405adc55",
-                "reference": "14f4f04dc60579fb51ba8cf36a44efb1405adc55",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/b68ec7bc8ab05fdc9b6c8b58ba27011f440fef02",
+                "reference": "b68ec7bc8ab05fdc9b6c8b58ba27011f440fef02",
                 "shasum": ""
             },
             "require": {
@@ -153,7 +153,7 @@
                 "source": "https://github.com/oranfry/jars-core/tree/master",
                 "issues": "https://github.com/oranfry/jars-core/issues"
             },
-            "time": "2022-02-19T09:45:14+00:00"
+            "time": "2022-03-10T09:47:48+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -222,14 +222,15 @@
             "source": {
                 "type": "git",
                 "url": "git@emerg.co:jars-test.git",
-                "reference": "c9ac6609ed0fde0e7490de361539b9661d749284"
+                "reference": "848cf8cfcecf09de4a77843b129acea13f6bfff2"
             },
             "require": {
-                "oranfry/jars-core": "*"
+                "oranfry/jars-core": "*",
+                "oranfry/obex": "*"
             },
             "default-branch": true,
             "type": "library",
-            "time": "2022-02-28T05:15:35+00:00"
+            "time": "2022-03-10T09:50:03+00:00"
         },
         {
             "name": "oranfry/obex",

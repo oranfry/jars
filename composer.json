@@ -55,5 +55,10 @@
         "psr-4": {
             "jars\\": "classes"
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "cd vendor\/oranfry\/jars-test\/portal && @composer install"
+        ]
     }
 }

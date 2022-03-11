@@ -222,7 +222,7 @@
             "source": {
                 "type": "git",
                 "url": "git@emerg.co:jars-test.git",
-                "reference": "848cf8cfcecf09de4a77843b129acea13f6bfff2"
+                "reference": "1bcd20d619222d3e38db38aa9fa49431664c174e"
             },
             "require": {
                 "oranfry/jars-core": "*",
@@ -230,7 +230,7 @@
             },
             "default-branch": true,
             "type": "library",
-            "time": "2022-03-10T09:50:03+00:00"
+            "time": "2022-03-11T08:25:33+00:00"
         },
         {
             "name": "oranfry/obex",

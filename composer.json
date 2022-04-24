@@ -33,7 +33,7 @@
         },
         {
             "type": "vcs",
-            "url": "git@emerg.co:jars-test.git"
+            "url": "https://github.com/oranfry/jars-test.git"
         },
         {
             "type": "vcs",

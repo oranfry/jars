@@ -11,7 +11,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oranfry/jars-admin.git",
+                "url": "https://github.com/oranfry/jars-admin.git",
                 "reference": "251b437669343027b06c97a7fd31fb6d44b1f60b"
             },
             "dist": {
@@ -33,14 +33,18 @@
                     "jars\\admin\\": "classes"
                 }
             },
-            "time": "2022-02-28T04:27:19+00:00"
+            "support": {
+                "source": "https://github.com/oranfry/jars-admin/tree/master",
+                "issues": "https://github.com/oranfry/jars-admin/issues"
+            },
+            "time": "2022-02-28T04:27:47+00:00"
         },
         {
             "name": "oranfry/jars-cli",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oranfry/jars-cli.git",
+                "url": "https://github.com/oranfry/jars-cli.git",
                 "reference": "3695bdd5559d26c6247ea34d077d26d31f5928b5"
             },
             "dist": {
@@ -60,6 +64,10 @@
                     "jars\\cli\\": "classes"
                 }
             },
+            "support": {
+                "source": "https://github.com/oranfry/jars-cli/tree/master",
+                "issues": "https://github.com/oranfry/jars-cli/issues"
+            },
             "time": "2022-03-17T07:23:30+00:00"
         },
         {
@@ -67,7 +75,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oranfry/jars-client.git",
+                "url": "https://github.com/oranfry/jars-client.git",
                 "reference": "7444592826898569e023fb079bd765b4d9042d89"
             },
             "dist": {
@@ -84,6 +92,10 @@
                     "jars\\client\\": "classes"
                 }
             },
+            "support": {
+                "source": "https://github.com/oranfry/jars-client/tree/master",
+                "issues": "https://github.com/oranfry/jars-client/issues"
+            },
             "time": "2022-04-18T00:57:09+00:00"
         },
         {
@@ -91,7 +103,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oranfry/jars-contracts.git",
+                "url": "https://github.com/oranfry/jars-contracts.git",
                 "reference": "2aa8edf31e1c45b6c0c79929c854f9188c5138d7"
             },
             "dist": {
@@ -107,6 +119,10 @@
                     "jars\\contract\\": "classes"
                 }
             },
+            "support": {
+                "source": "https://github.com/oranfry/jars-contracts/tree/master",
+                "issues": "https://github.com/oranfry/jars-contracts/issues"
+            },
             "time": "2022-02-19T04:35:54+00:00"
         },
         {
@@ -114,7 +130,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oranfry/jars-core.git",
+                "url": "https://github.com/oranfry/jars-core.git",
                 "reference": "a92743e8375bdc5cb2b58fe400d8f96726b0f2c9"
             },
             "dist": {
@@ -133,6 +149,10 @@
                     "jars\\": "classes"
                 }
             },
+            "support": {
+                "source": "https://github.com/oranfry/jars-core/tree/master",
+                "issues": "https://github.com/oranfry/jars-core/issues"
+            },
             "time": "2022-03-20T08:42:46+00:00"
         },
         {
@@ -140,7 +160,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oranfry/jars-http.git",
+                "url": "https://github.com/oranfry/jars-http.git",
                 "reference": "4b112e54fd852d942a03d19e47247891c4612070"
             },
             "dist": {
@@ -160,6 +180,10 @@
                     "jars\\http\\": "classes"
                 }
             },
+            "support": {
+                "source": "https://github.com/oranfry/jars-http/tree/master",
+                "issues": "https://github.com/oranfry/jars-http/issues"
+            },
             "time": "2022-02-28T04:30:50+00:00"
         },
         {
@@ -167,7 +191,7 @@
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oranfry/jars-refreshd.git",
+                "url": "https://github.com/oranfry/jars-refreshd.git",
                 "reference": "462fbb4838da82ba38d2c3742512a1eb0c6ed5d0"
             },
             "dist": {
@@ -186,6 +210,10 @@
                     "jars\\refresh\\": "classes"
                 }
             },
+            "support": {
+                "source": "https://github.com/oranfry/jars-refreshd/tree/main",
+                "issues": "https://github.com/oranfry/jars-refreshd/issues"
+            },
             "time": "2022-02-28T04:35:03+00:00"
         },
         {
@@ -193,13 +221,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oranfry/jars-test.git",
-                "reference": "2775ac9567dd9b2aa57a77461fca682f203fbdfd"
+                "url": "https://github.com/oranfry/jars-test.git",
+                "reference": "59922ae2701908f7fe0a1cdcf24924757743d4ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-test/zipball/2775ac9567dd9b2aa57a77461fca682f203fbdfd",
-                "reference": "2775ac9567dd9b2aa57a77461fca682f203fbdfd",
+                "url": "https://api.github.com/repos/oranfry/jars-test/zipball/59922ae2701908f7fe0a1cdcf24924757743d4ae",
+                "reference": "59922ae2701908f7fe0a1cdcf24924757743d4ae",
                 "shasum": ""
             },
             "require": {
@@ -208,7 +236,11 @@
             },
             "default-branch": true,
             "type": "library",
-            "time": "2022-04-24T01:32:34+00:00"
+            "support": {
+                "source": "https://github.com/oranfry/jars-test/tree/master",
+                "issues": "https://github.com/oranfry/jars-test/issues"
+            },
+            "time": "2022-04-25T08:54:26+00:00"
         },
         {
             "name": "oranfry/obex",

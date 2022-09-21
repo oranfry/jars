@@ -7,3 +7,4 @@ var
 vendor
 
 latest.json
+.DS_Store

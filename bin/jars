@@ -11,6 +11,7 @@ $flags = [];
 
 $parameters = [
     'db-home' => (object) [],
+    'var-dir' => (object) [],
     'password' => (object) ['short' => 'p'],
     'portal' => (object) [],
     'portal-home' => (object) [],
@@ -51,26 +52,56 @@ for ($i = 0; $i < count($argv); $i++) {
 $argv = array_merge([$command], $rem_argv);
 $errors = [];
 
+if (isset($arguments['var-dir'])) {
+    $prefix = null;
+
+    if (strpos($arguments['var-dir'], '/') !== 0) {
+        $prefix = APP_HOME . '/';
+    }
+
+    $var_dir = $prefix . $arguments['var-dir'];
+} else {
+    $var_dir = '/var/jars';
+}
+
+define('VAR_HOME', $var_dir);
+
 if (isset($arguments['portal-home'])) {
-    define('PORTAL_HOME', $arguments['portal-home']);
+    $prefix = null;
+
+    if (strpos($arguments['portal-home'], '/') !== 0) {
+        $prefix = VAR_HOME . '/';
+    }
+
+    define('PORTAL_HOME', $prefix . $arguments['portal-home']);
 }
 
 if (isset($arguments['db-home'])) {
-    define('DB_HOME', $arguments['db-home']);
+    $prefix = null;
+
+    if (strpos($arguments['db-home'], '/') !== 0) {
+        $prefix = VAR_HOME . '/';
+    }
+
+    define('DB_HOME', $prefix . $arguments['db-home']);
 }
 
 if (isset($arguments['portal'])) {
     if (!defined('PORTAL_HOME')) {
-        define('PORTAL_HOME', APP_HOME . '/var/' . $arguments['portal'] . '/portal');
+        define('PORTAL_HOME', VAR_HOME . '/portals/' . $arguments['portal']);
     }
 
     if (!defined('DB_HOME')) {
-        define('DB_HOME', APP_HOME . '/var/' . $arguments['portal'] . '/db');
+        define('DB_HOME', VAR_HOME . '/dbs/' . $arguments['portal']);
     }
 }
 
-if (!defined('PORTAL_HOME') || !defined('DB_HOME')) {
-    $errors[] = 'could not determine portal-home and/or db-home';
+if (!defined('PORTAL_HOME')) {
+    $errors[] = 'could not determine portal-home';
+}
+
+if (!defined('DB_HOME')) {
+    $errors[] = 'could not determine db-home';
 }
 
 if (count($errors)) {

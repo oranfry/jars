@@ -192,12 +192,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-refreshd.git",
-                "reference": "3f89a3a3baa4036d36fbcc92be83e94ef38bb8b4"
+                "reference": "a84460dd7c3a59efb867194e53adbaa635acedaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-refreshd/zipball/3f89a3a3baa4036d36fbcc92be83e94ef38bb8b4",
-                "reference": "3f89a3a3baa4036d36fbcc92be83e94ef38bb8b4",
+                "url": "https://api.github.com/repos/oranfry/jars-refreshd/zipball/a84460dd7c3a59efb867194e53adbaa635acedaa",
+                "reference": "a84460dd7c3a59efb867194e53adbaa635acedaa",
                 "shasum": ""
             },
             "require": {
@@ -214,7 +214,7 @@
                 "source": "https://github.com/oranfry/jars-refreshd/tree/main",
                 "issues": "https://github.com/oranfry/jars-refreshd/issues"
             },
-            "time": "2022-09-18T02:57:00+00:00"
+            "time": "2022-10-22T23:30:38+00:00"
         },
         {
             "name": "oranfry/jars-test",

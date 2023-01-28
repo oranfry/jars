@@ -11,15 +11,15 @@ $flags = [];
 
 $parameters = [
     'db-home' => (object) [],
-    'var-dir' => (object) [],
     'password' => (object) ['short' => 'p'],
     'portal' => (object) [],
     'portal-home' => (object) [],
     'token' => (object) ['short' => 't'],
     'username' => (object) ['short' => 'u'],
+    'var-dir' => (object) [],
 ];
 
-$arguments = array_map(fn () => null, $parameters);
+$arguments = array_map(fn ($details) => @$details->multiple ? [] : @$details->default, $parameters);
 
 for ($i = 0; $i < count($argv); $i++) {
     $matches = [];
@@ -34,7 +34,13 @@ for ($i = 0; $i < count($argv); $i++) {
         $pattern = '/^' . $pattern . '$/';
 
         if (preg_match($pattern, $argv[$i], $matches)) {
-            $arguments[$param] = @$matches[1] ?? @$argv[++$i];
+            $value = @$matches[1] ?? @$argv[++$i];
+
+            if (@$details->multiple) {
+                $arguments[$param][] = $value;
+            } else {
+                $arguments[$param] = $value;
+            }
 
             continue 2;
         }

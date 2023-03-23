@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "6baa3bf9176f3d5613f8b3d4173422c464640739"
+                "reference": "8d164f2dc7a750d0c2085370e0f9b49737034f09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/6baa3bf9176f3d5613f8b3d4173422c464640739",
-                "reference": "6baa3bf9176f3d5613f8b3d4173422c464640739",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/8d164f2dc7a750d0c2085370e0f9b49737034f09",
+                "reference": "8d164f2dc7a750d0c2085370e0f9b49737034f09",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +37,7 @@
                 "source": "https://github.com/oranfry/jars-admin/tree/master",
                 "issues": "https://github.com/oranfry/jars-admin/issues"
             },
-            "time": "2022-09-21T20:38:34+00:00"
+            "time": "2023-03-23T06:15:39+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -134,12 +134,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "4c9c3cfdc99aae34aaaa702ab89d28e2f07e1dd1"
+                "reference": "f8ae21e332226b12b5e80266dd64ebaa6515a156"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/4c9c3cfdc99aae34aaaa702ab89d28e2f07e1dd1",
-                "reference": "4c9c3cfdc99aae34aaaa702ab89d28e2f07e1dd1",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/f8ae21e332226b12b5e80266dd64ebaa6515a156",
+                "reference": "f8ae21e332226b12b5e80266dd64ebaa6515a156",
                 "shasum": ""
             },
             "require": {
@@ -156,7 +156,7 @@
                 "source": "https://github.com/oranfry/jars-core/tree/master",
                 "issues": "https://github.com/oranfry/jars-core/issues"
             },
-            "time": "2023-03-18T05:26:02+00:00"
+            "time": "2023-03-23T06:17:26+00:00"
         },
         {
             "name": "oranfry/jars-http",

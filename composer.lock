@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "21605c229091fe20bf7018accb25f1a8445a016c"
+                "reference": "a3780fa197132b39ae77e24bb1c01b10bbf43a13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/21605c229091fe20bf7018accb25f1a8445a016c",
-                "reference": "21605c229091fe20bf7018accb25f1a8445a016c",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/a3780fa197132b39ae77e24bb1c01b10bbf43a13",
+                "reference": "a3780fa197132b39ae77e24bb1c01b10bbf43a13",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +37,7 @@
                 "source": "https://github.com/oranfry/jars-admin/tree/master",
                 "issues": "https://github.com/oranfry/jars-admin/issues"
             },
-            "time": "2023-03-30T10:24:26+00:00"
+            "time": "2023-04-01T01:09:44+00:00"
         },
         {
             "name": "oranfry/jars-cli",

@@ -134,12 +134,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "250b28ec2f30a3ce190467266088ebd18120000e"
+                "reference": "a3e5639e7258e4d693497301b9d1d62d6507b1a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/250b28ec2f30a3ce190467266088ebd18120000e",
-                "reference": "250b28ec2f30a3ce190467266088ebd18120000e",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/a3e5639e7258e4d693497301b9d1d62d6507b1a3",
+                "reference": "a3e5639e7258e4d693497301b9d1d62d6507b1a3",
                 "shasum": ""
             },
             "require": {
@@ -156,7 +156,7 @@
                 "source": "https://github.com/oranfry/jars-core/tree/master",
                 "issues": "https://github.com/oranfry/jars-core/issues"
             },
-            "time": "2023-04-16T20:04:49+00:00"
+            "time": "2023-04-19T09:24:17+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -278,12 +278,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "94618cf09fc006b4e16aa6a71fa01725089b1925"
+                "reference": "f8a8b6a900faa69c85f5a884a58e2472448b4441"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/94618cf09fc006b4e16aa6a71fa01725089b1925",
-                "reference": "94618cf09fc006b4e16aa6a71fa01725089b1925",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/f8a8b6a900faa69c85f5a884a58e2472448b4441",
+                "reference": "f8a8b6a900faa69c85f5a884a58e2472448b4441",
                 "shasum": ""
             },
             "default-branch": true,
@@ -297,7 +297,7 @@
                 "source": "https://github.com/oranfry/subsimple/tree/master",
                 "issues": "https://github.com/oranfry/subsimple/issues"
             },
-            "time": "2023-04-09T23:24:31+00:00"
+            "time": "2023-04-19T09:18:12+00:00"
         }
     ],
     "packages-dev": [],

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f01753065c363e6db9f6c4c84d92fbeb",
+    "content-hash": "0d26cab701be14ac8b27e1ea1fe314e0",
     "packages": [
         {
             "name": "oranfry/jars-admin",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "0a4e2a44712442715cf2fdae857df79d16b62bef"
+                "reference": "3a41f26167f2d7adf5602707622fdf74882dc872"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/0a4e2a44712442715cf2fdae857df79d16b62bef",
-                "reference": "0a4e2a44712442715cf2fdae857df79d16b62bef",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/3a41f26167f2d7adf5602707622fdf74882dc872",
+                "reference": "3a41f26167f2d7adf5602707622fdf74882dc872",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +37,7 @@
                 "source": "https://github.com/oranfry/jars-admin/tree/master",
                 "issues": "https://github.com/oranfry/jars-admin/issues"
             },
-            "time": "2023-04-08T00:00:10+00:00"
+            "time": "2023-04-25T02:25:17+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -134,12 +134,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "a3e5639e7258e4d693497301b9d1d62d6507b1a3"
+                "reference": "21fd3e5868e0c478b1539b32ca2003bdcbd2b7aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/a3e5639e7258e4d693497301b9d1d62d6507b1a3",
-                "reference": "a3e5639e7258e4d693497301b9d1d62d6507b1a3",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/21fd3e5868e0c478b1539b32ca2003bdcbd2b7aa",
+                "reference": "21fd3e5868e0c478b1539b32ca2003bdcbd2b7aa",
                 "shasum": ""
             },
             "require": {
@@ -156,7 +156,7 @@
                 "source": "https://github.com/oranfry/jars-core/tree/master",
                 "issues": "https://github.com/oranfry/jars-core/issues"
             },
-            "time": "2023-04-19T09:24:17+00:00"
+            "time": "2023-04-24T05:15:39+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -164,30 +164,46 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-http.git",
-                "reference": "1e0f0e96a296dd7b38bb3bc7e62561acc15b2bdc"
+                "reference": "d7737c0f7a4d8ed7418ffdf46890e7fd2776c0ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-http/zipball/1e0f0e96a296dd7b38bb3bc7e62561acc15b2bdc",
-                "reference": "1e0f0e96a296dd7b38bb3bc7e62561acc15b2bdc",
+                "url": "https://api.github.com/repos/oranfry/jars-http/zipball/d7737c0f7a4d8ed7418ffdf46890e7fd2776c0ee",
+                "reference": "d7737c0f7a4d8ed7418ffdf46890e7fd2776c0ee",
                 "shasum": ""
             },
             "require": {
                 "oranfry/jars-core": "*",
-                "oranfry/subsimple": "*"
+                "oranfry/jars-http-base": "*"
             },
             "default-branch": true,
+            "type": "library",
+            "support": {
+                "source": "https://github.com/oranfry/jars-http/tree/master",
+                "issues": "https://github.com/oranfry/jars-http/issues"
+            },
+            "time": "2023-04-25T01:04:05+00:00"
+        },
+        {
+            "name": "oranfry/jars-http-base",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "/Users/oran/Unsynched/deps/oranfry/jars-http-base",
+                "reference": "6077f00fff29c62226d2b9a4e31e7c0a9b999744"
+            },
+            "require": {
+                "oranfry/subsimple": "*"
+            },
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "jars\\http\\": "classes"
                 }
             },
-            "support": {
-                "source": "https://github.com/oranfry/jars-http/tree/master",
-                "issues": "https://github.com/oranfry/jars-http/issues"
-            },
-            "time": "2023-04-07T05:53:48+00:00"
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "oranfry/jars-refreshd",
@@ -278,12 +294,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "f8a8b6a900faa69c85f5a884a58e2472448b4441"
+                "reference": "8493976acfe3f7a7c54acb8f2ffeba0ce6e25865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/f8a8b6a900faa69c85f5a884a58e2472448b4441",
-                "reference": "f8a8b6a900faa69c85f5a884a58e2472448b4441",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/8493976acfe3f7a7c54acb8f2ffeba0ce6e25865",
+                "reference": "8493976acfe3f7a7c54acb8f2ffeba0ce6e25865",
                 "shasum": ""
             },
             "default-branch": true,
@@ -297,7 +313,7 @@
                 "source": "https://github.com/oranfry/subsimple/tree/master",
                 "issues": "https://github.com/oranfry/subsimple/issues"
             },
-            "time": "2023-04-19T09:18:12+00:00"
+            "time": "2023-04-25T02:17:06+00:00"
         }
     ],
     "packages-dev": [],

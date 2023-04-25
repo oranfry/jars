@@ -29,10 +29,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/oranfry/jars-http-base.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/oranfry/jars-refreshd.git"
         },
         {

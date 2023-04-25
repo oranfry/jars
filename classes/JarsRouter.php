@@ -2,20 +2,24 @@
 
 namespace jars;
 
+use jars\admin\AdminRouter;
+use jars\cli\CliRouter;
+use jars\http\HttpRouter;
+
 class JarsRouter extends \subsimple\Router
 {
     protected static $routes = [
         'CLI *' => [
-            'FORWARD' => '\jars\cli\CliRouter',
+            'FORWARD' => CliRouter::class,
         ],
 
         'HTTP /api.*' => [
-            'FORWARD' => '\jars\http\HttpRouter',
+            'FORWARD' => HttpRouter::class,
             'EAT' => '/api',
         ],
 
         'HTTP .*' => [
-            'FORWARD' => '\jars\admin\AdminRouter',
+            'FORWARD' => AdminRouter::class,
         ],
    ];
 }

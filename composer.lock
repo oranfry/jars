@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d26cab701be14ac8b27e1ea1fe314e0",
+    "content-hash": "f66d1ebe2cc4d6872d84748f1ccd0142",
     "packages": [
         {
             "name": "oranfry/jars-admin",
@@ -186,24 +186,33 @@
         },
         {
             "name": "oranfry/jars-http-base",
-            "version": "1.0.0",
-            "dist": {
-                "type": "path",
-                "url": "/Users/oran/Unsynched/deps/oranfry/jars-http-base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oranfry/jars-http-base.git",
                 "reference": "6077f00fff29c62226d2b9a4e31e7c0a9b999744"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oranfry/jars-http-base/zipball/6077f00fff29c62226d2b9a4e31e7c0a9b999744",
+                "reference": "6077f00fff29c62226d2b9a4e31e7c0a9b999744",
+                "shasum": ""
             },
             "require": {
                 "oranfry/subsimple": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "jars\\http\\": "classes"
                 }
             },
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "source": "https://github.com/oranfry/jars-http-base/tree/master",
+                "issues": "https://github.com/oranfry/jars-http-base/issues"
+            },
+            "time": "2023-04-25T02:28:13+00:00"
         },
         {
             "name": "oranfry/jars-refreshd",

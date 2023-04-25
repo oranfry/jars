@@ -28,8 +28,8 @@
             "url": "https://github.com/oranfry/jars-http.git"
         },
         {
-            "type": "path",
-            "url": "/Users/oran/Unsynched/deps/oranfry/jars-http-base"
+            "type": "vcs",
+            "url": "https://github.com/oranfry/jars-http-base.git"
         },
         {
             "type": "vcs",

@@ -8,13 +8,15 @@ if (isset($_SERVER['HTTP_HOST']) && file_exists($config_file = __DIR__ . '/confi
     $host_config = require $config_file;
 
     if (!is_object($host_config)) {
-        error_response('Jars Admin: Host config file should return an object.');
+        error_log('Jars Admin: Host config file should return an object.');
+        die(1);
     }
 }
 
 if ($portal_home = @$host_config->portal_home ?? @$_SERVER['PORTAL_HOME']) {
     if (!$db_home = @$host_config->db_home ?? @$_SERVER['DB_HOME']) {
-        error_response('When setting PORTAL_HOME, please also set DB_HOME');
+        error_log('When setting PORTAL_HOME, please also set DB_HOME');
+        die(1);
     }
 
     $jars_config = (object) [
@@ -26,7 +28,8 @@ if ($portal_home = @$host_config->portal_home ?? @$_SERVER['PORTAL_HOME']) {
         'jars_url' => @$jars_url,
     ];
 } else {
-    error_response('Please define PORTAL_HOME home or JARS_URL');
+    error_log('Please define PORTAL_HOME home or JARS_URL ' . $_SERVER['HTTP_HOST']);
+    die(1);
 }
 
 require APP_HOME . '/vendor/autoload.php';

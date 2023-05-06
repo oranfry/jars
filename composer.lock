@@ -224,12 +224,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-test.git",
-                "reference": "79f40fbca12277b03e1efd634e4691d223c5f589"
+                "reference": "1d0116a2ca49ba20e60f22e9dba4daeb4f05f5a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-test/zipball/79f40fbca12277b03e1efd634e4691d223c5f589",
-                "reference": "79f40fbca12277b03e1efd634e4691d223c5f589",
+                "url": "https://api.github.com/repos/oranfry/jars-test/zipball/1d0116a2ca49ba20e60f22e9dba4daeb4f05f5a4",
+                "reference": "1d0116a2ca49ba20e60f22e9dba4daeb4f05f5a4",
                 "shasum": ""
             },
             "require": {
@@ -242,7 +242,7 @@
                 "source": "https://github.com/oranfry/jars-test/tree/master",
                 "issues": "https://github.com/oranfry/jars-test/issues"
             },
-            "time": "2023-05-03T10:59:52+00:00"
+            "time": "2023-05-06T02:47:48+00:00"
         },
         {
             "name": "oranfry/obex",

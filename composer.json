@@ -1,7 +1,11 @@
 {
-    "name": "oranfry/jars",
-    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "jars\\": "classes"
+        }
+    },
     "minimum-stability": "dev",
+    "name": "oranfry/jars",
     "repositories": [
         {
             "type": "vcs",
@@ -51,14 +55,10 @@
         "oranfry/jars-refreshd": "*",
         "oranfry/jars-test": "*"
     },
-    "autoload": {
-        "psr-4": {
-            "jars\\": "classes"
-        }
-    },
     "scripts": {
         "post-install-cmd": [
             "cd vendor/oranfry/jars-test/portal && composer install"
         ]
-    }
+    },
+    "version": "1.0.0"
 }

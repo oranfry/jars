@@ -58,6 +58,9 @@
     "scripts": {
         "post-install-cmd": [
             "cd vendor/oranfry/jars-test/portal && composer install"
+        ],
+        "post-update-cmd": [
+            "cd vendor/oranfry/jars-test/portal && composer install"
         ]
     },
     "version": "1.0.0"

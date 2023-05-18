@@ -134,12 +134,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "012e2a6117e03faf513c8bb288627522e6b8ddfc"
+                "reference": "f017bb5960b54f89837f971e03990c70ebb23be3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/012e2a6117e03faf513c8bb288627522e6b8ddfc",
-                "reference": "012e2a6117e03faf513c8bb288627522e6b8ddfc",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/f017bb5960b54f89837f971e03990c70ebb23be3",
+                "reference": "f017bb5960b54f89837f971e03990c70ebb23be3",
                 "shasum": ""
             },
             "require": {
@@ -156,7 +156,7 @@
                 "source": "https://github.com/oranfry/jars-core/tree/master",
                 "issues": "https://github.com/oranfry/jars-core/issues"
             },
-            "time": "2023-05-04T09:17:49+00:00"
+            "time": "2023-05-18T10:44:12+00:00"
         },
         {
             "name": "oranfry/jars-http",

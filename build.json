@@ -12,10 +12,7 @@
             "extension": "js",
             "files": [
                 "node_modules/jquery/dist/jquery.min.js",
-                "src/js/jars/admin/cookies.js",
-                "src/js/jars/admin/report.js",
-                "src/js/jars/admin/selecting.js",
-                "src/js/jars/admin/login.js"
+                "include:src/js/jars/admin.json"
             ],
             "into": "js",
             "wrapper": {
@@ -27,12 +24,7 @@
             "basename": "styles",
             "extension": "css",
             "files": [
-                "src/css/jars/admin/jars.css",
-                "src/css/jars/admin/nav.css",
-                "src/css/jars/admin/forms.css",
-                "src/css/jars/admin/easy-tables.css",
-                "src/css/jars/admin/icon.css",
-                "php:src/php/script/jars/admin/iconcss.php"
+                "include:src/css/jars/admin.json"
             ],
             "into": "css"
         }

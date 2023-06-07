@@ -76,12 +76,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-client.git",
-                "reference": "db9e603cba3a3322cf0b5f5e498b95928d0a7de2"
+                "reference": "086e4aa9d8fad00a2a5801c9d82e943d2ef5cdcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/db9e603cba3a3322cf0b5f5e498b95928d0a7de2",
-                "reference": "db9e603cba3a3322cf0b5f5e498b95928d0a7de2",
+                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/086e4aa9d8fad00a2a5801c9d82e943d2ef5cdcc",
+                "reference": "086e4aa9d8fad00a2a5801c9d82e943d2ef5cdcc",
                 "shasum": ""
             },
             "require": {
@@ -99,7 +99,7 @@
                 "source": "https://github.com/oranfry/jars-client/tree/master",
                 "issues": "https://github.com/oranfry/jars-client/issues"
             },
-            "time": "2023-05-27T10:29:31+00:00"
+            "time": "2023-06-07T08:48:37+00:00"
         },
         {
             "name": "oranfry/jars-contracts",

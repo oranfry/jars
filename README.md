@@ -5,7 +5,7 @@
 I this document, I'm using:
 
 - `$HOME/Projects/jars` for the installation directory, but you could use anything. For production I use `/var/www/jars`.
-- `$HOME/Projects/jars/var/jars` as the variable files directory, but for production I would use `/var/jars` (the default).
+- `$HOME/Projects/jars/var` as the variable files directory, but for production I would use `/var` (the default).
 
 Get the project:
 
@@ -31,16 +31,16 @@ cd "$HOME/Projects/jars"
 An empty database is just an empty directory:
 
 ```
-mkdir -p "$HOME/Projects/jars/var/jars/dbs/myportal"
+mkdir -p "$HOME/Projects/jars/var/dbs/myportal"
 ```
 
 ## Create your portal
 
 ```
-mkdir -p "$HOME/Projects/jars/var/jars/portals/myportal"
+mkdir -p "$HOME/Projects/jars/var/portals/myportal"
 
 // Generate a sequence secret
-php -r 'echo base64_encode(random_bytes(32)) . "\n";'
+php -r 'echo base64_encode(random_bytes(63)) . "\n";'
 ```
 
 Create the file `$HOME/Projects/jars/var/dbs/myportal/portal.php` with these contents, replacing SECR3T with your secret as generated above
@@ -64,7 +64,7 @@ Now, scan the first million IDs for collions (unusable IDs):
 
 ```
 cd "$HOME/Projects/jars"
-bin/jars "--portal-home=$HOME/jars/var/jars/portals/acme" "--db-home=$HOME/Unsynched/jars/var/jars/dbs/acme" -u acme -p test123 collisions 1000000
+bin/jars "--portal-home=$HOME/jars/var/portals/acme" "--db-home=$HOME/Unsynched/jars/var/dbs/acme" -u acme -p test123 collisions 1000000
 ```
 
 To apply the findings of the above command, merge its output with the sequence setup in `portal.php`:

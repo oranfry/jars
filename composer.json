@@ -6,51 +6,10 @@
     },
     "minimum-stability": "dev",
     "name": "oranfry/jars",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/oranfry/jars-admin.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/oranfry/jars-cli.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/oranfry/jars-client.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/oranfry/jars-contracts.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/oranfry/jars-core.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/oranfry/jars-http.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/oranfry/jars-refreshd.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/oranfry/jars-test.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/oranfry/obex.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/oranfry/subsimple.git"
-        }
-    ],
     "require": {
         "oranfry/jars-admin": "*",
         "oranfry/jars-cli": "*",
+        "oranfry/jars-contracts": "*",
         "oranfry/jars-http": "*",
         "oranfry/jars-refreshd": "*",
         "oranfry/jars-test": "*"
@@ -62,6 +21,5 @@
         "post-update-cmd": [
             "cd vendor/oranfry/jars-test/portal && composer install"
         ]
-    },
-    "version": "1.0.0"
+    }
 }

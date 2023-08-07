@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f01753065c363e6db9f6c4c84d92fbeb",
+    "content-hash": "1da96946fe02b9a85b94cdcfe953face",
     "packages": [
         {
             "name": "oranfry/jars-admin",
@@ -12,16 +12,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "6cac9a127de99e3104be021b36251df867c3189e"
+                "reference": "fbf7e4acf7f06f67e6b77b3c31b55b4c91f0a375"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/6cac9a127de99e3104be021b36251df867c3189e",
-                "reference": "6cac9a127de99e3104be021b36251df867c3189e",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/fbf7e4acf7f06f67e6b77b3c31b55b4c91f0a375",
+                "reference": "fbf7e4acf7f06f67e6b77b3c31b55b4c91f0a375",
                 "shasum": ""
             },
             "require": {
                 "oranfry/jars-client": "*",
+                "oranfry/jars-contracts": "*",
                 "oranfry/jars-core": "*",
                 "oranfry/obex": "*",
                 "oranfry/subsimple": "*"
@@ -33,11 +34,12 @@
                     "jars\\admin\\": "classes"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "support": {
-                "source": "https://github.com/oranfry/jars-admin/tree/master",
-                "issues": "https://github.com/oranfry/jars-admin/issues"
+                "issues": "https://github.com/oranfry/jars-admin/issues",
+                "source": "https://github.com/oranfry/jars-admin/tree/1.0.0"
             },
-            "time": "2023-06-18T04:45:07+00:00"
+            "time": "2023-08-07T05:25:52+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -64,9 +66,10 @@
                     "jars\\cli\\": "classes"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "support": {
-                "source": "https://github.com/oranfry/jars-cli/tree/master",
-                "issues": "https://github.com/oranfry/jars-cli/issues"
+                "issues": "https://github.com/oranfry/jars-cli/issues",
+                "source": "https://github.com/oranfry/jars-cli/tree/master"
             },
             "time": "2023-04-25T06:20:56+00:00"
         },
@@ -76,12 +79,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-client.git",
-                "reference": "462c6c94ca9673f87826f32aaaeba1f1adce0380"
+                "reference": "6ba899691deae8a59b1e2bf042711a20d1fff6bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/462c6c94ca9673f87826f32aaaeba1f1adce0380",
-                "reference": "462c6c94ca9673f87826f32aaaeba1f1adce0380",
+                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/6ba899691deae8a59b1e2bf042711a20d1fff6bb",
+                "reference": "6ba899691deae8a59b1e2bf042711a20d1fff6bb",
                 "shasum": ""
             },
             "require": {
@@ -91,15 +94,15 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "": "src/php/class",
-                    "jars\\client\\": "classes"
+                    "jars\\client\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "support": {
-                "source": "https://github.com/oranfry/jars-client/tree/master",
-                "issues": "https://github.com/oranfry/jars-client/issues"
+                "issues": "https://github.com/oranfry/jars-client/issues",
+                "source": "https://github.com/oranfry/jars-client/tree/1.0.0"
             },
-            "time": "2023-06-10T02:57:11+00:00"
+            "time": "2023-08-07T04:02:32+00:00"
         },
         {
             "name": "oranfry/jars-contracts",
@@ -107,26 +110,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-contracts.git",
-                "reference": "fe8b453290ab9f9f320486b9bb3a9c0144529035"
+                "reference": "fa23ae46963a2b5830cf39ae59f5030b54405ae0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-contracts/zipball/fe8b453290ab9f9f320486b9bb3a9c0144529035",
-                "reference": "fe8b453290ab9f9f320486b9bb3a9c0144529035",
+                "url": "https://api.github.com/repos/oranfry/jars-contracts/zipball/fa23ae46963a2b5830cf39ae59f5030b54405ae0",
+                "reference": "fa23ae46963a2b5830cf39ae59f5030b54405ae0",
                 "shasum": ""
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "jars\\contract\\": "classes"
+                    "jars\\contract\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "support": {
-                "source": "https://github.com/oranfry/jars-contracts/tree/master",
-                "issues": "https://github.com/oranfry/jars-contracts/issues"
+                "issues": "https://github.com/oranfry/jars-contracts/issues",
+                "source": "https://github.com/oranfry/jars-contracts/tree/1.0.0"
             },
-            "time": "2023-05-27T10:19:17+00:00"
+            "time": "2023-08-07T05:21:25+00:00"
         },
         {
             "name": "oranfry/jars-core",
@@ -134,12 +138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "a9362c0d8ca05a63c9e6b7d4337daeeec7c417ba"
+                "reference": "2fb311426619de91196ed29e07a31ac850bc57f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/a9362c0d8ca05a63c9e6b7d4337daeeec7c417ba",
-                "reference": "a9362c0d8ca05a63c9e6b7d4337daeeec7c417ba",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/2fb311426619de91196ed29e07a31ac850bc57f6",
+                "reference": "2fb311426619de91196ed29e07a31ac850bc57f6",
                 "shasum": ""
             },
             "require": {
@@ -149,14 +153,15 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "jars\\": "classes"
+                    "jars\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "support": {
-                "source": "https://github.com/oranfry/jars-core/tree/master",
-                "issues": "https://github.com/oranfry/jars-core/issues"
+                "issues": "https://github.com/oranfry/jars-core/issues",
+                "source": "https://github.com/oranfry/jars-core/tree/1.0.0"
             },
-            "time": "2023-06-24T22:31:19+00:00"
+            "time": "2023-08-07T03:51:23+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -164,15 +169,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-http.git",
-                "reference": "6c904bbb8c6f5d9fc966f071c317eebbdb192a9d"
+                "reference": "fa45e47b24f348b9705171a0bda2c134d5e92370"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-http/zipball/6c904bbb8c6f5d9fc966f071c317eebbdb192a9d",
-                "reference": "6c904bbb8c6f5d9fc966f071c317eebbdb192a9d",
+                "url": "https://api.github.com/repos/oranfry/jars-http/zipball/fa45e47b24f348b9705171a0bda2c134d5e92370",
+                "reference": "fa45e47b24f348b9705171a0bda2c134d5e92370",
                 "shasum": ""
             },
             "require": {
+                "oranfry/jars-contracts": "*",
                 "oranfry/subsimple": "*"
             },
             "default-branch": true,
@@ -182,11 +188,12 @@
                     "jars\\http\\": "classes"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "support": {
-                "source": "https://github.com/oranfry/jars-http/tree/master",
-                "issues": "https://github.com/oranfry/jars-http/issues"
+                "issues": "https://github.com/oranfry/jars-http/issues",
+                "source": "https://github.com/oranfry/jars-http/tree/1.0.0"
             },
-            "time": "2023-06-10T02:55:12+00:00"
+            "time": "2023-08-07T03:54:43+00:00"
         },
         {
             "name": "oranfry/jars-refreshd",
@@ -212,9 +219,10 @@
                     "jars\\refresh\\": "classes"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "support": {
-                "source": "https://github.com/oranfry/jars-refreshd/tree/main",
-                "issues": "https://github.com/oranfry/jars-refreshd/issues"
+                "issues": "https://github.com/oranfry/jars-refreshd/issues",
+                "source": "https://github.com/oranfry/jars-refreshd/tree/main"
             },
             "time": "2022-10-22T23:30:38+00:00"
         },
@@ -238,9 +246,10 @@
             },
             "default-branch": true,
             "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
             "support": {
-                "source": "https://github.com/oranfry/jars-test/tree/master",
-                "issues": "https://github.com/oranfry/jars-test/issues"
+                "issues": "https://github.com/oranfry/jars-test/issues",
+                "source": "https://github.com/oranfry/jars-test/tree/master"
             },
             "time": "2023-05-27T08:56:56+00:00"
         },
@@ -265,9 +274,10 @@
                     "obex\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "support": {
-                "source": "https://github.com/oranfry/obex/tree/master",
-                "issues": "https://github.com/oranfry/obex/issues"
+                "issues": "https://github.com/oranfry/obex/issues",
+                "source": "https://github.com/oranfry/obex/tree/master"
             },
             "time": "2023-06-18T05:50:19+00:00"
         },
@@ -277,13 +287,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "8c1a97f1db9a072a15a962827a7a61124f4046ac"
+                "reference": "56aa7c210353ce11a1852982f9a6b5ae8c9d1e9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/8c1a97f1db9a072a15a962827a7a61124f4046ac",
-                "reference": "8c1a97f1db9a072a15a962827a7a61124f4046ac",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/56aa7c210353ce11a1852982f9a6b5ae8c9d1e9a",
+                "reference": "56aa7c210353ce11a1852982f9a6b5ae8c9d1e9a",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
             },
             "default-branch": true,
             "type": "library",
@@ -292,11 +305,12 @@
                     "subsimple\\": "classes"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "support": {
-                "source": "https://github.com/oranfry/subsimple/tree/master",
-                "issues": "https://github.com/oranfry/subsimple/issues"
+                "issues": "https://github.com/oranfry/subsimple/issues",
+                "source": "https://github.com/oranfry/subsimple/tree/master"
             },
-            "time": "2023-05-20T03:38:41+00:00"
+            "time": "2023-08-06T23:50:04+00:00"
         }
     ],
     "packages-dev": [],

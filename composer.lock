@@ -221,16 +221,16 @@
         },
         {
             "name": "oranfry/jars-test",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-test.git",
-                "reference": "8f2b6f2bcb99bd660a422246c537644a3609dd7e"
+                "reference": "1d1ae9a5fc54aec4ac186c7ff15d7c9d63cede25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-test/zipball/8f2b6f2bcb99bd660a422246c537644a3609dd7e",
-                "reference": "8f2b6f2bcb99bd660a422246c537644a3609dd7e",
+                "url": "https://api.github.com/repos/oranfry/jars-test/zipball/1d1ae9a5fc54aec4ac186c7ff15d7c9d63cede25",
+                "reference": "1d1ae9a5fc54aec4ac186c7ff15d7c9d63cede25",
                 "shasum": ""
             },
             "require": {
@@ -241,9 +241,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-test/issues",
-                "source": "https://github.com/oranfry/jars-test/tree/1.0.0"
+                "source": "https://github.com/oranfry/jars-test/tree/1.1.0"
             },
-            "time": "2023-05-27T08:56:56+00:00"
+            "time": "2023-09-02T03:36:18+00:00"
         },
         {
             "name": "oranfry/obex",

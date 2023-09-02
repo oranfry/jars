@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "972d71aef64098017d7d0762d8b83a3f",
+    "content-hash": "11010b036ffca06b04ecf029a5025434",
     "packages": [
         {
             "name": "oranfry/jars-admin",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "267bd9641fa9bd6cf3c3566e687235cdefa98581"
+                "reference": "051c2680fa75e90b9402932de225f7b22f28c431"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/267bd9641fa9bd6cf3c3566e687235cdefa98581",
-                "reference": "267bd9641fa9bd6cf3c3566e687235cdefa98581",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/051c2680fa75e90b9402932de225f7b22f28c431",
+                "reference": "051c2680fa75e90b9402932de225f7b22f28c431",
                 "shasum": ""
             },
             "require": {
@@ -36,9 +36,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-admin/issues",
-                "source": "https://github.com/oranfry/jars-admin/tree/1.0.2"
+                "source": "https://github.com/oranfry/jars-admin/tree/1.1.0"
             },
-            "time": "2023-08-08T04:08:58+00:00"
+            "time": "2023-09-02T03:15:57+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -103,16 +103,16 @@
         },
         {
             "name": "oranfry/jars-contracts",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-contracts.git",
-                "reference": "fa23ae46963a2b5830cf39ae59f5030b54405ae0"
+                "reference": "c26025ac7ddc758120f580328e282a6f0aa69346"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-contracts/zipball/fa23ae46963a2b5830cf39ae59f5030b54405ae0",
-                "reference": "fa23ae46963a2b5830cf39ae59f5030b54405ae0",
+                "url": "https://api.github.com/repos/oranfry/jars-contracts/zipball/c26025ac7ddc758120f580328e282a6f0aa69346",
+                "reference": "c26025ac7ddc758120f580328e282a6f0aa69346",
                 "shasum": ""
             },
             "type": "library",
@@ -124,22 +124,22 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-contracts/issues",
-                "source": "https://github.com/oranfry/jars-contracts/tree/1.0.0"
+                "source": "https://github.com/oranfry/jars-contracts/tree/2.0.0"
             },
-            "time": "2023-08-07T05:21:25+00:00"
+            "time": "2023-09-02T02:08:25+00:00"
         },
         {
             "name": "oranfry/jars-core",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "27e0d2c2778b24b8790c881f6331cc07f3044978"
+                "reference": "eb36a0a89cb637713ae0673b3507c3d031721ab4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/27e0d2c2778b24b8790c881f6331cc07f3044978",
-                "reference": "27e0d2c2778b24b8790c881f6331cc07f3044978",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/eb36a0a89cb637713ae0673b3507c3d031721ab4",
+                "reference": "eb36a0a89cb637713ae0673b3507c3d031721ab4",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/1.0.2"
+                "source": "https://github.com/oranfry/jars-core/tree/1.1.0"
             },
-            "time": "2023-08-16T10:20:16+00:00"
+            "time": "2023-09-02T03:11:06+00:00"
         },
         {
             "name": "oranfry/jars-http",

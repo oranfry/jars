@@ -8,7 +8,7 @@
     "require": {
         "oranfry/jars-admin": "*",
         "oranfry/jars-cli": "*",
-        "oranfry/jars-contracts": "*",
+        "oranfry/jars-contracts": "^1.1.0",
         "oranfry/jars-http": "*",
         "oranfry/jars-refreshd": "*",
         "oranfry/jars-test": "*"

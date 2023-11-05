@@ -42,16 +42,16 @@
         },
         {
             "name": "oranfry/jars-cli",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-cli.git",
-                "reference": "79bad05ca21cbfe3f7f39326f25f309facb7b572"
+                "reference": "27a711c74a8258011781203e3d2f743d1f5bbc9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-cli/zipball/79bad05ca21cbfe3f7f39326f25f309facb7b572",
-                "reference": "79bad05ca21cbfe3f7f39326f25f309facb7b572",
+                "url": "https://api.github.com/repos/oranfry/jars-cli/zipball/27a711c74a8258011781203e3d2f743d1f5bbc9d",
+                "reference": "27a711c74a8258011781203e3d2f743d1f5bbc9d",
                 "shasum": ""
             },
             "require": {
@@ -67,9 +67,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-cli/issues",
-                "source": "https://github.com/oranfry/jars-cli/tree/1.2.0"
+                "source": "https://github.com/oranfry/jars-cli/tree/1.3.0"
             },
-            "time": "2023-09-17T02:13:09+00:00"
+            "time": "2023-10-07T04:03:38+00:00"
         },
         {
             "name": "oranfry/jars-client",
@@ -77,12 +77,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-client.git",
-                "reference": "1842f0c8ebdee56eb5e8985b5634d6a36677ac18"
+                "reference": "9c5b7a5ae865e9fa80fde102c3800b2713515dc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/1842f0c8ebdee56eb5e8985b5634d6a36677ac18",
-                "reference": "1842f0c8ebdee56eb5e8985b5634d6a36677ac18",
+                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/9c5b7a5ae865e9fa80fde102c3800b2713515dc4",
+                "reference": "9c5b7a5ae865e9fa80fde102c3800b2713515dc4",
                 "shasum": ""
             },
             "require": {
@@ -99,7 +99,7 @@
                 "issues": "https://github.com/oranfry/jars-client/issues",
                 "source": "https://github.com/oranfry/jars-client/tree/1.0.3"
             },
-            "time": "2023-09-02T04:20:28+00:00"
+            "time": "2023-10-03T10:40:24+00:00"
         },
         {
             "name": "oranfry/jars-contracts",
@@ -274,16 +274,16 @@
         },
         {
             "name": "oranfry/subsimple",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "56aa7c210353ce11a1852982f9a6b5ae8c9d1e9a"
+                "reference": "24ad3cdd73366113db4efa8bc469edf3d3c4eae8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/56aa7c210353ce11a1852982f9a6b5ae8c9d1e9a",
-                "reference": "56aa7c210353ce11a1852982f9a6b5ae8c9d1e9a",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/24ad3cdd73366113db4efa8bc469edf3d3c4eae8",
+                "reference": "24ad3cdd73366113db4efa8bc469edf3d3c4eae8",
                 "shasum": ""
             },
             "require": {
@@ -298,9 +298,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/subsimple/issues",
-                "source": "https://github.com/oranfry/subsimple/tree/1.0.1"
+                "source": "https://github.com/oranfry/subsimple/tree/1.1.0"
             },
-            "time": "2023-08-06T23:50:04+00:00"
+            "time": "2023-11-05T00:38:59+00:00"
         }
     ],
     "packages-dev": [],

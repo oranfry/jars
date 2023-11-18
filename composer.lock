@@ -73,16 +73,16 @@
         },
         {
             "name": "oranfry/jars-client",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-client.git",
-                "reference": "0323eb8c9a3a97120ea0639bd99ff58e6ebe4f40"
+                "reference": "ea7a65b445c65f224eb4b1e6cc9bba9ebe670b27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/0323eb8c9a3a97120ea0639bd99ff58e6ebe4f40",
-                "reference": "0323eb8c9a3a97120ea0639bd99ff58e6ebe4f40",
+                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/ea7a65b445c65f224eb4b1e6cc9bba9ebe670b27",
+                "reference": "ea7a65b445c65f224eb4b1e6cc9bba9ebe670b27",
                 "shasum": ""
             },
             "require": {
@@ -97,9 +97,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-client/issues",
-                "source": "https://github.com/oranfry/jars-client/tree/1.1.1"
+                "source": "https://github.com/oranfry/jars-client/tree/1.1.2"
             },
-            "time": "2023-11-18T02:41:09+00:00"
+            "time": "2023-11-18T03:06:25+00:00"
         },
         {
             "name": "oranfry/jars-contracts",
@@ -107,12 +107,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-contracts.git",
-                "reference": "395d7c7fe65ab8af131687af8ddda9d3ac9995a6"
+                "reference": "f67a339741a75540dbc54fe6182277ed3a9bce40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-contracts/zipball/395d7c7fe65ab8af131687af8ddda9d3ac9995a6",
-                "reference": "395d7c7fe65ab8af131687af8ddda9d3ac9995a6",
+                "url": "https://api.github.com/repos/oranfry/jars-contracts/zipball/f67a339741a75540dbc54fe6182277ed3a9bce40",
+                "reference": "f67a339741a75540dbc54fe6182277ed3a9bce40",
                 "shasum": ""
             },
             "type": "library",
@@ -126,20 +126,20 @@
                 "issues": "https://github.com/oranfry/jars-contracts/issues",
                 "source": "https://github.com/oranfry/jars-contracts/tree/3.0.0"
             },
-            "time": "2023-11-18T02:12:18+00:00"
+            "time": "2023-11-18T03:05:08+00:00"
         },
         {
             "name": "oranfry/jars-core",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "883b922b2c9cca404e55f592ebccb13178ff5904"
+                "reference": "ed36e6806e6c844e4f8cb662963489a81dc45e2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/883b922b2c9cca404e55f592ebccb13178ff5904",
-                "reference": "883b922b2c9cca404e55f592ebccb13178ff5904",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/ed36e6806e6c844e4f8cb662963489a81dc45e2e",
+                "reference": "ed36e6806e6c844e4f8cb662963489a81dc45e2e",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/1.3.0"
+                "source": "https://github.com/oranfry/jars-core/tree/1.3.1"
             },
-            "time": "2023-11-18T02:01:00+00:00"
+            "time": "2023-11-18T03:07:41+00:00"
         },
         {
             "name": "oranfry/jars-http",

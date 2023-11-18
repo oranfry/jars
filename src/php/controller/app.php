@@ -1,8 +1,11 @@
 <?php
 
 use jars\client\HttpClient;
+use jars\contract\BadTokenException;
 use jars\Jars;
 use subsimple\Config;
+use subsimple\Exception;
+use subsimple\ForbiddenException;
 
 switch (preg_replace(',.*/,', '', $_plugin_dir)) {
     case 'jars-cli':
@@ -40,7 +43,7 @@ switch (preg_replace(',.*/,', '', $_plugin_dir)) {
                 break;
 
             default:
-                error_response('Internal Server Error', 500);
+                throw new Exception('Unsupported AUTHSCHEME');
         }
 
         if (in_array(AUTHSCHEME, ['header', 'cookie'])) {
@@ -66,15 +69,9 @@ switch (preg_replace(',.*/,', '', $_plugin_dir)) {
 
         switch (AUTHSCHEME) {
             case 'header':
-                if (!$token = @getallheaders()['X-Auth']) {
-                    error_response('Invalid auth ' . PAGE);
-                }
-
-                $jars->token($token);
-
-                if (!$jars->touch()) {
-                    error_response('Invalid auth');
-                }
+                $jars
+                    ->token(@getallheaders()['X-Auth'])
+                    ->touch();
 
                 break;
 
@@ -82,13 +79,13 @@ switch (preg_replace(',.*/,', '', $_plugin_dir)) {
                 break;
 
             default:
-                error_response('Internal Server Error', 500);
+                throw new Exception('Unsupported AUTHSCHEME');
         }
 
         break;
 
-        default:
-            error_response('Internal Server Error', 500);
+    default:
+        throw new Exception('Unsupported Plugin');
 }
 
 return compact('jars');

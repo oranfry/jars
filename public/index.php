@@ -2,6 +2,8 @@
 
 define('APP_HOME', dirname(__DIR__));
 
+@include APP_HOME . '/machine.php';
+
 $host_config = (object) [];
 
 if (isset($_SERVER['HTTP_HOST']) && file_exists($config_file = __DIR__ . '/configs/' . $_SERVER['HTTP_HOST'] . '.php')) {

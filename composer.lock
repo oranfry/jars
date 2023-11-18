@@ -73,20 +73,20 @@
         },
         {
             "name": "oranfry/jars-client",
-            "version": "1.0.1",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-client.git",
-                "reference": "43114d65298e472240c614acc8e9f23608bbaf3e"
+                "reference": "0323eb8c9a3a97120ea0639bd99ff58e6ebe4f40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/43114d65298e472240c614acc8e9f23608bbaf3e",
-                "reference": "43114d65298e472240c614acc8e9f23608bbaf3e",
+                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/0323eb8c9a3a97120ea0639bd99ff58e6ebe4f40",
+                "reference": "0323eb8c9a3a97120ea0639bd99ff58e6ebe4f40",
                 "shasum": ""
             },
             "require": {
-                "oranfry/jars-contracts": "*"
+                "oranfry/jars-contracts": "^3.0.0"
             },
             "type": "library",
             "autoload": {
@@ -97,9 +97,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-client/issues",
-                "source": "https://github.com/oranfry/jars-client/tree/1.0.1"
+                "source": "https://github.com/oranfry/jars-client/tree/1.1.1"
             },
-            "time": "2023-08-10T04:43:57+00:00"
+            "time": "2023-11-18T02:41:09+00:00"
         },
         {
             "name": "oranfry/jars-contracts",

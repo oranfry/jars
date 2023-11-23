@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "oranfry/jars-admin",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "46b236411371ecd81eba7975c0e6ee84ee3611b0"
+                "reference": "faa12622e699c191fc93c876305e848f1b650a50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/46b236411371ecd81eba7975c0e6ee84ee3611b0",
-                "reference": "46b236411371ecd81eba7975c0e6ee84ee3611b0",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/faa12622e699c191fc93c876305e848f1b650a50",
+                "reference": "faa12622e699c191fc93c876305e848f1b650a50",
                 "shasum": ""
             },
             "require": {
@@ -36,9 +36,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-admin/issues",
-                "source": "https://github.com/oranfry/jars-admin/tree/1.3.0"
+                "source": "https://github.com/oranfry/jars-admin/tree/1.4.0"
             },
-            "time": "2023-11-19T05:27:15+00:00"
+            "time": "2023-11-23T01:26:07+00:00"
         },
         {
             "name": "oranfry/jars-cli",

@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "oranfry/jars-admin",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "faa12622e699c191fc93c876305e848f1b650a50"
+                "reference": "6f3a4877ea00e5b736ab58a7003845d343c45924"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/faa12622e699c191fc93c876305e848f1b650a50",
-                "reference": "faa12622e699c191fc93c876305e848f1b650a50",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/6f3a4877ea00e5b736ab58a7003845d343c45924",
+                "reference": "6f3a4877ea00e5b736ab58a7003845d343c45924",
                 "shasum": ""
             },
             "require": {
@@ -36,9 +36,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-admin/issues",
-                "source": "https://github.com/oranfry/jars-admin/tree/1.4.0"
+                "source": "https://github.com/oranfry/jars-admin/tree/1.4.1"
             },
-            "time": "2023-11-23T01:26:07+00:00"
+            "time": "2023-11-23T05:15:26+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -247,16 +247,16 @@
         },
         {
             "name": "oranfry/obex",
-            "version": "1.0.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/obex.git",
-                "reference": "1116740f8a85dcc99302f52886c85b370dc6f795"
+                "reference": "18247017ada15d9a13a7f14b0488c773c706b0d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/obex/zipball/1116740f8a85dcc99302f52886c85b370dc6f795",
-                "reference": "1116740f8a85dcc99302f52886c85b370dc6f795",
+                "url": "https://api.github.com/repos/oranfry/obex/zipball/18247017ada15d9a13a7f14b0488c773c706b0d6",
+                "reference": "18247017ada15d9a13a7f14b0488c773c706b0d6",
                 "shasum": ""
             },
             "type": "library",
@@ -268,9 +268,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/obex/issues",
-                "source": "https://github.com/oranfry/obex/tree/1.0.0"
+                "source": "https://github.com/oranfry/obex/tree/1.2.1"
             },
-            "time": "2023-06-18T05:50:19+00:00"
+            "time": "2023-11-23T03:06:28+00:00"
         },
         {
             "name": "oranfry/subsimple",

@@ -15,23 +15,13 @@ if (isset($_SERVER['HTTP_HOST']) && file_exists($config_file = __DIR__ . '/confi
     }
 }
 
-if ($portal_home = @$host_config->portal_home ?? @$_SERVER['PORTAL_HOME']) {
-    if (!$db_home = @$host_config->db_home ?? @$_SERVER['DB_HOME']) {
-        error_log('When setting PORTAL_HOME, please also set DB_HOME');
-        die(1);
-    }
-
-    $jars_config = (object) [
-        'db_home' => @$db_home,
-        'portal_home' => @$portal_home,
-    ];
-} elseif ($jars_url = @$host_config->jars_url ?? @$_SERVER['JARS_URL']) {
-    $jars_config = (object) [
-        'jars_url' => @$jars_url,
-    ];
-} else {
-    error_log('Please define PORTAL_HOME home or JARS_URL ' . $_SERVER['HTTP_HOST']);
+if (!$connection_string = $host_config->connection_string ?? $_SERVER['CONNECTION_STRING'] ?? null) {
+    error_log('Please define connection string in host config or as environment variable');
     die(1);
+}
+
+if ($autoload = $host_config->autoload ?? $_SERVER['PORTAL_AUTOLOAD'] ?? null) {
+    require $autoload;
 }
 
 require APP_HOME . '/vendor/autoload.php';

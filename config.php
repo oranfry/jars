@@ -1,7 +1,7 @@
 <?php
 
 return (object) [
-    'jars' => @$jars_config,
+    'connection_string' => @$connection_string,
     'requires' => [
         APP_HOME . '/vendor/oranfry/jars-admin',
         APP_HOME . '/vendor/oranfry/jars-cli',

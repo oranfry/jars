@@ -1,15 +1,12 @@
 <?php
 
-use jars\client\HttpClient;
-use jars\contract\BadTokenException;
-use jars\Jars;
+use jars\contract\JarsConnector;
 use subsimple\Config;
 use subsimple\Exception;
-use subsimple\ForbiddenException;
 
 switch (preg_replace(',.*/,', '', $_plugin_dir)) {
     case 'jars-cli':
-        $jars = Jars::of(PORTAL_HOME, DB_HOME);
+        $jars = JarsConnector::connect(CONNECTION_STRING);
 
         if (defined('AUTH_TOKEN')) {
             $jars->token(AUTH_TOKEN);
@@ -20,13 +17,7 @@ switch (preg_replace(',.*/,', '', $_plugin_dir)) {
         break;
 
     case 'jars-admin':
-        $jars_config = Config::get()->jars;
-
-        if (@$jars_config->portal_home) {
-            $jars = Jars::of($jars_config->portal_home, $jars_config->db_home);
-        } else {
-            $jars = HttpClient::of($jars_config->jars_url);
-        }
+        $jars = JarsConnector::connect(Config::get()->connection_string);
 
         $token = null;
 
@@ -64,8 +55,7 @@ switch (preg_replace(',.*/,', '', $_plugin_dir)) {
         break;
 
     case 'jars-http':
-        $jars_config = Config::get()->jars;
-        $jars = Jars::of($jars_config->portal_home, $jars_config->db_home);
+        $jars = JarsConnector::connect(Config::get()->connection_string);
 
         switch (AUTHSCHEME) {
             case 'header':

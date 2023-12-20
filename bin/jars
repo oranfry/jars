@@ -11,16 +11,16 @@ $rem_argv = [];
 $flags = [];
 
 $parameters = [
-    'db-home' => (object) [],
-    'password' => (object) ['short' => 'p'],
-    'portal' => (object) [],
-    'portal-home' => (object) [],
-    'token' => (object) ['short' => 't'],
-    'username' => (object) ['short' => 'u'],
-    'var-dir' => (object) [],
+    'autoload' => (object) ['description' => 'Path to PHP script responsible for setting up autoloading or pre-loading required classes. Only useful for local jars access.', 'short' => 'a'],
+    'connection-string' => (object) ['description' => 'A connection string for jars access', 'short' => 'c'],
+    'etc-dir' => (object) ['description' => 'Path to look for portal files (default /etc/jars)', 'short' => 'e'],
+    'password' => (object) ['description' => 'When no token is specified, allows specifying a password non-interactively', 'short' => 'p'],
+    'portal' => (object) ['description' => 'Name of the portal file, from where connection string and username can be loaded'],
+    'token' => (object) ['description' => 'A jars access token, to allow access without creating a new token via username / password', 'short' => 't'],
+    'username' => (object) ['description' => 'When no token is specified, allows specifying a username non-interactively', 'short' => 'u'],
 ];
 
-$arguments = array_map(fn ($details) => @$details->multiple ? [] : @$details->default, $parameters);
+$arguments = array_map(fn ($details) => @$details->multiple ? [] : $details->default ?? null, $parameters);
 
 for ($i = 0; $i < count($argv); $i++) {
     $matches = [];
@@ -28,14 +28,14 @@ for ($i = 0; $i < count($argv); $i++) {
     foreach ($parameters as $param => $details) {
         $pattern = '--' . str_replace('_', '-', $param) . '(?:=(.*))?';
 
-        if ($short = @$details->short) {
+        if ($short = $details->short ?? null) {
             $pattern = '(?:-' . $short . '|' . $pattern . ')';
         }
 
         $pattern = '/^' . $pattern . '$/';
 
         if (preg_match($pattern, $argv[$i], $matches)) {
-            $value = @$matches[1] ?? @$argv[++$i];
+            $value = $matches[1] ?? @$argv[++$i];
 
             if (@$details->multiple) {
                 $arguments[$param][] = $value;
@@ -57,62 +57,40 @@ for ($i = 0; $i < count($argv); $i++) {
 }
 
 $argv = array_merge([$command], $rem_argv);
-$errors = [];
 
-if (isset($arguments['var-dir'])) {
-    $prefix = null;
-
-    if (strpos($arguments['var-dir'], '/') !== 0) {
-        $prefix = APP_HOME . '/';
-    }
-
-    $var_dir = $prefix . $arguments['var-dir'];
-} else {
-    $var_dir = '/var/jars';
-}
-
-define('VAR_HOME', $var_dir);
-
-if (isset($arguments['portal-home'])) {
-    $prefix = null;
-
-    if (strpos($arguments['portal-home'], '/') !== 0) {
-        $prefix = VAR_HOME . '/';
-    }
-
-    define('PORTAL_HOME', $prefix . $arguments['portal-home']);
-}
-
-if (isset($arguments['db-home'])) {
-    $prefix = null;
-
-    if (strpos($arguments['db-home'], '/') !== 0) {
-        $prefix = VAR_HOME . '/';
-    }
-
-    define('DB_HOME', $prefix . $arguments['db-home']);
-}
+$etc_dir = match (isset($arguments['etc-dir'])) {
+    true => (strpos($arguments['etc-dir'], '/') !== 0 ? APP_HOME . '/' : null) . $arguments['etc-dir'],
+    default => '/etc/jars',
+};
 
 if (isset($arguments['portal'])) {
-    if (!defined('PORTAL_HOME')) {
-        define('PORTAL_HOME', VAR_HOME . '/portals/' . $arguments['portal']);
+    if (!is_file($portal_file = $etc_dir . '/' . $arguments['portal'] . '.json')) {
+        error_log('Could not file portal file for ' . $arguments['portal'], 4);
+        usage($command, $parameters);
+        exit(1);
     }
 
-    if (!defined('DB_HOME')) {
-        define('DB_HOME', VAR_HOME . '/dbs/' . $arguments['portal']);
+    $portal_data = json_decode(file_get_contents($portal_file));
+
+    if (!isset($arguments['username']) && ($username = $portal_data->username ?? null)) {
+        $arguments['username'] = $username;
+    }
+
+    if (!isset($arguments['connection-string']) && ($connection_string = $portal_data->connection_string ?? null)) {
+        $arguments['connection-string'] = $connection_string;
+    }
+
+    if (!isset($arguments['autoload']) && ($autoload = $portal_data->autoload ?? null)) {
+        $arguments['autoload'] = $autoload;
     }
 }
 
-if (!defined('PORTAL_HOME')) {
-    $errors[] = 'could not determine portal-home';
-}
+define('FLAGS', $flags);
 
-if (!defined('DB_HOME')) {
-    $errors[] = 'could not determine db-home';
-}
-
-if (count($errors)) {
-    error_log(implode('; ', $errors));
+if (isset($arguments['connection-string'])) {
+    define('CONNECTION_STRING', $arguments['connection-string']);
+} else {
+    error_log('Please specify connection-string', 4);
     usage($command, $parameters);
     exit(1);
 }
@@ -130,7 +108,7 @@ if ($arguments['token']) {
     }
 
     if (!$arguments['username']) {
-        error_log('Please supply username on the command line when supplying password that way');
+        error_log('Could not determine username', 4);
         usage($command, $parameters);
         exit(1);
     }
@@ -139,7 +117,9 @@ if ($arguments['token']) {
     define('PASSWORD', $arguments['password']);
 }
 
-define('FLAGS', $flags);
+if (isset($arguments['autoload'])) {
+    require $arguments['autoload'];
+}
 
 unset($arguments, $command, $details, $flags, $i, $matches, $param, $parameters, $pattern, $rem_argv, $short);
 

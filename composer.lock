@@ -191,16 +191,16 @@
         },
         {
             "name": "oranfry/jars-refreshd",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-refreshd.git",
-                "reference": "2d20f4fab56209f2aeb35bb455066b6a1025560a"
+                "reference": "8541d7a82822ab01ebd6b292ad18021806ffa168"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-refreshd/zipball/2d20f4fab56209f2aeb35bb455066b6a1025560a",
-                "reference": "2d20f4fab56209f2aeb35bb455066b6a1025560a",
+                "url": "https://api.github.com/repos/oranfry/jars-refreshd/zipball/8541d7a82822ab01ebd6b292ad18021806ffa168",
+                "reference": "8541d7a82822ab01ebd6b292ad18021806ffa168",
                 "shasum": ""
             },
             "require": {
@@ -215,9 +215,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-refreshd/issues",
-                "source": "https://github.com/oranfry/jars-refreshd/tree/1.1.0"
+                "source": "https://github.com/oranfry/jars-refreshd/tree/1.1.1"
             },
-            "time": "2023-12-26T23:47:11+00:00"
+            "time": "2023-12-27T00:26:26+00:00"
         },
         {
             "name": "oranfry/jars-test",

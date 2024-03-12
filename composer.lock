@@ -274,16 +274,16 @@
         },
         {
             "name": "oranfry/subsimple",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "43ece0c68f70d82d7df6c0fd46ae21f7d8b99bb4"
+                "reference": "08f08999afbd10ab87beb58b60c5b6d6f04d7c1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/43ece0c68f70d82d7df6c0fd46ae21f7d8b99bb4",
-                "reference": "43ece0c68f70d82d7df6c0fd46ae21f7d8b99bb4",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/08f08999afbd10ab87beb58b60c5b6d6f04d7c1b",
+                "reference": "08f08999afbd10ab87beb58b60c5b6d6f04d7c1b",
                 "shasum": ""
             },
             "require": {
@@ -298,9 +298,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/subsimple/issues",
-                "source": "https://github.com/oranfry/subsimple/tree/1.1.2"
+                "source": "https://github.com/oranfry/subsimple/tree/1.1.3"
             },
-            "time": "2023-11-19T05:28:19+00:00"
+            "time": "2023-12-27T03:05:58+00:00"
         }
     ],
     "packages-dev": [],

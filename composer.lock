@@ -130,16 +130,16 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "2.2.1",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "c13b9ba7ac90312130921f0cb6f1d23af86a21de"
+                "reference": "4657bf65a8058b34bdab0580178f47837ba42b9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/c13b9ba7ac90312130921f0cb6f1d23af86a21de",
-                "reference": "c13b9ba7ac90312130921f0cb6f1d23af86a21de",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/4657bf65a8058b34bdab0580178f47837ba42b9d",
+                "reference": "4657bf65a8058b34bdab0580178f47837ba42b9d",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/2.2.1"
+                "source": "https://github.com/oranfry/jars-core/tree/2.3.0"
             },
-            "time": "2024-03-12T08:53:45+00:00"
+            "time": "2024-03-29T03:12:11+00:00"
         },
         {
             "name": "oranfry/jars-http",

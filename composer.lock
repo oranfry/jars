@@ -42,16 +42,16 @@
         },
         {
             "name": "oranfry/jars-cli",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-cli.git",
-                "reference": "23273318a4d1f99e178becbdfeaabdb4abcf0df5"
+                "reference": "df4d6fde92859f796395d0243774029197618a49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-cli/zipball/23273318a4d1f99e178becbdfeaabdb4abcf0df5",
-                "reference": "23273318a4d1f99e178becbdfeaabdb4abcf0df5",
+                "url": "https://api.github.com/repos/oranfry/jars-cli/zipball/df4d6fde92859f796395d0243774029197618a49",
+                "reference": "df4d6fde92859f796395d0243774029197618a49",
                 "shasum": ""
             },
             "require": {
@@ -67,9 +67,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-cli/issues",
-                "source": "https://github.com/oranfry/jars-cli/tree/1.4.0"
+                "source": "https://github.com/oranfry/jars-cli/tree/1.4.1"
             },
-            "time": "2023-12-22T23:34:52+00:00"
+            "time": "2024-04-19T22:18:53+00:00"
         },
         {
             "name": "oranfry/jars-client",

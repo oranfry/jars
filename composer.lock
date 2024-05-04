@@ -130,16 +130,16 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "4e11224c8ddcacffc017bde666111179624cc2e8"
+                "reference": "089692ff085b7890a06eb0a1544e4a0945ea803a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/4e11224c8ddcacffc017bde666111179624cc2e8",
-                "reference": "4e11224c8ddcacffc017bde666111179624cc2e8",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/089692ff085b7890a06eb0a1544e4a0945ea803a",
+                "reference": "089692ff085b7890a06eb0a1544e4a0945ea803a",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/2.5.0"
+                "source": "https://github.com/oranfry/jars-core/tree/2.6.0"
             },
-            "time": "2024-04-10T05:02:14+00:00"
+            "time": "2024-05-04T09:09:33+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -191,16 +191,16 @@
         },
         {
             "name": "oranfry/jars-refreshd",
-            "version": "1.1.3",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-refreshd.git",
-                "reference": "de04bd04b100bd0b76a4ddb0ab56970c24aa2d00"
+                "reference": "4229c1c9809e0f81884edef1ff8a2f1cbcab6e14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-refreshd/zipball/de04bd04b100bd0b76a4ddb0ab56970c24aa2d00",
-                "reference": "de04bd04b100bd0b76a4ddb0ab56970c24aa2d00",
+                "url": "https://api.github.com/repos/oranfry/jars-refreshd/zipball/4229c1c9809e0f81884edef1ff8a2f1cbcab6e14",
+                "reference": "4229c1c9809e0f81884edef1ff8a2f1cbcab6e14",
                 "shasum": ""
             },
             "require": {
@@ -215,9 +215,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-refreshd/issues",
-                "source": "https://github.com/oranfry/jars-refreshd/tree/1.1.3"
+                "source": "https://github.com/oranfry/jars-refreshd/tree/1.2.0"
             },
-            "time": "2023-12-27T01:58:59+00:00"
+            "time": "2024-05-04T09:02:54+00:00"
         },
         {
             "name": "oranfry/jars-test",

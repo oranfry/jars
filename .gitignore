@@ -6,6 +6,7 @@ public/build
 public/configs
 var
 vendor
+.vscode
 
 latest.json
 .DS_Store

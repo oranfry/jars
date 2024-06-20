@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "oranfry/jars-admin",
-            "version": "1.6.3",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "c8369362048c0d871cda55742a135e9186d46d81"
+                "reference": "6761228639475ed90686b1d6f850336faedd598f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/c8369362048c0d871cda55742a135e9186d46d81",
-                "reference": "c8369362048c0d871cda55742a135e9186d46d81",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/6761228639475ed90686b1d6f850336faedd598f",
+                "reference": "6761228639475ed90686b1d6f850336faedd598f",
                 "shasum": ""
             },
             "require": {
@@ -36,9 +36,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-admin/issues",
-                "source": "https://github.com/oranfry/jars-admin/tree/1.6.3"
+                "source": "https://github.com/oranfry/jars-admin/tree/1.7.0"
             },
-            "time": "2024-06-17T10:02:22+00:00"
+            "time": "2024-06-20T09:58:30+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -130,16 +130,16 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "2.8.2",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "38c9e16dec850ea0c23d3e67d0a834bcfdf19db1"
+                "reference": "4d00570bd6c148f7304bbf62c840b6c0ace93f0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/38c9e16dec850ea0c23d3e67d0a834bcfdf19db1",
-                "reference": "38c9e16dec850ea0c23d3e67d0a834bcfdf19db1",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/4d00570bd6c148f7304bbf62c840b6c0ace93f0a",
+                "reference": "4d00570bd6c148f7304bbf62c840b6c0ace93f0a",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/2.8.2"
+                "source": "https://github.com/oranfry/jars-core/tree/2.9.0"
             },
-            "time": "2024-06-17T07:30:28+00:00"
+            "time": "2024-06-20T07:22:41+00:00"
         },
         {
             "name": "oranfry/jars-http",

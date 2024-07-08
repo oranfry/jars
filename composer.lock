@@ -130,16 +130,16 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "2.9.0",
+            "version": "2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "4d00570bd6c148f7304bbf62c840b6c0ace93f0a"
+                "reference": "dca4f4b8eb5b4473df7dd317c6d8a6a9a91c484b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/4d00570bd6c148f7304bbf62c840b6c0ace93f0a",
-                "reference": "4d00570bd6c148f7304bbf62c840b6c0ace93f0a",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/dca4f4b8eb5b4473df7dd317c6d8a6a9a91c484b",
+                "reference": "dca4f4b8eb5b4473df7dd317c6d8a6a9a91c484b",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/2.9.0"
+                "source": "https://github.com/oranfry/jars-core/tree/2.10"
             },
-            "time": "2024-06-20T07:22:41+00:00"
+            "time": "2024-07-08T09:09:56+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -221,16 +221,16 @@
         },
         {
             "name": "oranfry/jars-test",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-test.git",
-                "reference": "bca581a2de73d52c0e7f439dba83819e7c004dc3"
+                "reference": "c9c3cd7f2d9a16efd89d1163dc765f9185c8aa67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-test/zipball/bca581a2de73d52c0e7f439dba83819e7c004dc3",
-                "reference": "bca581a2de73d52c0e7f439dba83819e7c004dc3",
+                "url": "https://api.github.com/repos/oranfry/jars-test/zipball/c9c3cd7f2d9a16efd89d1163dc765f9185c8aa67",
+                "reference": "c9c3cd7f2d9a16efd89d1163dc765f9185c8aa67",
                 "shasum": ""
             },
             "require": {
@@ -241,9 +241,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-test/issues",
-                "source": "https://github.com/oranfry/jars-test/tree/1.4.0"
+                "source": "https://github.com/oranfry/jars-test/tree/1.5.0"
             },
-            "time": "2024-06-08T05:11:04+00:00"
+            "time": "2024-07-08T09:14:20+00:00"
         },
         {
             "name": "oranfry/obex",

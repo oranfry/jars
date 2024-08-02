@@ -1,5 +1,8 @@
 {
     "autoload": {
+        "files": [
+            "sentry.php"
+        ],
         "psr-4": {
             "jars\\": "classes"
         }
@@ -11,7 +14,9 @@
         "oranfry/jars-contracts": "^7.0.0",
         "oranfry/jars-http": "*",
         "oranfry/jars-refreshd": "*",
-        "oranfry/jars-test": "*"
+        "oranfry/jars-test": "*",
+        "oranfry/subsimple": "*",
+        "sentry/sentry": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [

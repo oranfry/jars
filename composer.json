@@ -7,6 +7,11 @@
             "jars\\": "classes"
         }
     },
+    "config": {
+        "platform": {
+            "php": "8.1.999"
+        }
+    },
     "name": "oranfry/jars",
     "require": {
         "oranfry/jars-admin": "*",

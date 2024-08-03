@@ -1,5 +1,7 @@
 <?php
 
-\Sentry\captureException($exception);
+if (defined('SENTRY_DSN')) {
+    \Sentry\captureException($exception);
+}
 
 return false;

@@ -685,12 +685,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "6222d31e22de264f2dba1a26f5e83fd4b36b3d18"
+                "reference": "82ef46db8bb60f9f337d0cdac2020edc7b9535d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/6222d31e22de264f2dba1a26f5e83fd4b36b3d18",
-                "reference": "6222d31e22de264f2dba1a26f5e83fd4b36b3d18",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/82ef46db8bb60f9f337d0cdac2020edc7b9535d8",
+                "reference": "82ef46db8bb60f9f337d0cdac2020edc7b9535d8",
                 "shasum": ""
             },
             "require": {
@@ -767,7 +767,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-08-01T07:11:26+00:00"
+            "time": "2024-08-06T13:20:37+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

@@ -305,16 +305,16 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "2.12.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "72cd20ec5f1e949f4dec7793bb7710bce82e3c0f"
+                "reference": "625da48b22743876d2989e847b7ff79e47a4cc39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/72cd20ec5f1e949f4dec7793bb7710bce82e3c0f",
-                "reference": "72cd20ec5f1e949f4dec7793bb7710bce82e3c0f",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/625da48b22743876d2989e847b7ff79e47a4cc39",
+                "reference": "625da48b22743876d2989e847b7ff79e47a4cc39",
                 "shasum": ""
             },
             "require": {
@@ -329,9 +329,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/2.12.0"
+                "source": "https://github.com/oranfry/jars-core/tree/3.1.0"
             },
-            "time": "2024-08-08T09:44:48+00:00"
+            "time": "2024-08-14T09:02:02+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -396,16 +396,16 @@
         },
         {
             "name": "oranfry/jars-test",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-test.git",
-                "reference": "c9c3cd7f2d9a16efd89d1163dc765f9185c8aa67"
+                "reference": "dd91795f640cc628ea9425192960425e5ac90856"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-test/zipball/c9c3cd7f2d9a16efd89d1163dc765f9185c8aa67",
-                "reference": "c9c3cd7f2d9a16efd89d1163dc765f9185c8aa67",
+                "url": "https://api.github.com/repos/oranfry/jars-test/zipball/dd91795f640cc628ea9425192960425e5ac90856",
+                "reference": "dd91795f640cc628ea9425192960425e5ac90856",
                 "shasum": ""
             },
             "require": {
@@ -416,9 +416,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-test/issues",
-                "source": "https://github.com/oranfry/jars-test/tree/1.5.0"
+                "source": "https://github.com/oranfry/jars-test/tree/1.6.0"
             },
-            "time": "2024-07-08T09:14:20+00:00"
+            "time": "2024-08-15T05:30:35+00:00"
         },
         {
             "name": "oranfry/obex",
@@ -685,12 +685,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "82ef46db8bb60f9f337d0cdac2020edc7b9535d8"
+                "reference": "88c803ff8f94be0da133dc731d62ddc4ab9def70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/82ef46db8bb60f9f337d0cdac2020edc7b9535d8",
-                "reference": "82ef46db8bb60f9f337d0cdac2020edc7b9535d8",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/88c803ff8f94be0da133dc731d62ddc4ab9def70",
+                "reference": "88c803ff8f94be0da133dc731d62ddc4ab9def70",
                 "shasum": ""
             },
             "require": {
@@ -767,7 +767,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-08-06T13:20:37+00:00"
+            "time": "2024-08-08T14:43:21+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

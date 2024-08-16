@@ -1,5 +1,32 @@
 #!/usr/bin/env php
 <?php
 
+use jars\contract\JarsConnector;
+
 require __DIR__ . '/../vendor/autoload.php';
-require __DIR__ . '/../vendor/oranfry/jars-refreshd/refresh.php';
+
+const REQUIRED = ['CONNECTION_STRING', 'AUTH_TOKEN'];
+const OPTIONAL = ['PORTAL_AUTOLOAD'];
+
+$config = [];
+
+foreach (array_merge(REQUIRED, OPTIONAL) as $i => $option) {
+    if ($value = getenv($option)) {
+        $config[$option] = $value;
+    }
+}
+
+$missing = array_filter(REQUIRED, fn ($option) => !array_key_exists($option, $config));
+
+if (count($missing)) {
+    error_log('Missing config options: ' . implode(', ', $missing));
+    die(1);
+}
+
+if ($autoload = $config['PORTAL_AUTOLOAD'] ?? null) {
+    require $autoload;
+}
+
+$jars = JarsConnector::connect($config['CONNECTION_STRING']);
+$jars->token($config['AUTH_TOKEN']);
+$jars->refresh();

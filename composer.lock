@@ -305,16 +305,16 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "625da48b22743876d2989e847b7ff79e47a4cc39"
+                "reference": "2948fdd39d3b52d3a74e6bf029a086ea3e822354"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/625da48b22743876d2989e847b7ff79e47a4cc39",
-                "reference": "625da48b22743876d2989e847b7ff79e47a4cc39",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/2948fdd39d3b52d3a74e6bf029a086ea3e822354",
+                "reference": "2948fdd39d3b52d3a74e6bf029a086ea3e822354",
                 "shasum": ""
             },
             "require": {
@@ -329,9 +329,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/3.1.0"
+                "source": "https://github.com/oranfry/jars-core/tree/3.2.0"
             },
-            "time": "2024-08-14T09:02:02+00:00"
+            "time": "2024-08-22T10:43:32+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -579,16 +579,16 @@
         },
         {
             "name": "psr/log",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001"
+                "reference": "79dff0b268932c640297f5208d6298f71855c03e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001",
-                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/79dff0b268932c640297f5208d6298f71855c03e",
+                "reference": "79dff0b268932c640297f5208d6298f71855c03e",
                 "shasum": ""
             },
             "require": {
@@ -623,9 +623,9 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/3.0.0"
+                "source": "https://github.com/php-fig/log/tree/3.0.1"
             },
-            "time": "2021-07-14T16:46:02+00:00"
+            "time": "2024-08-21T13:31:24+00:00"
         },
         {
             "name": "ralouphie/getallheaders",

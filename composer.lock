@@ -217,19 +217,20 @@
         },
         {
             "name": "oranfry/jars-cli",
-            "version": "1.5.1",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-cli.git",
-                "reference": "ab2082bff9a926e634f70bcb96cc844439e24315"
+                "reference": "cfe0d0d80e78370e7e858278540d299e74bd3882"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-cli/zipball/ab2082bff9a926e634f70bcb96cc844439e24315",
-                "reference": "ab2082bff9a926e634f70bcb96cc844439e24315",
+                "url": "https://api.github.com/repos/oranfry/jars-cli/zipball/cfe0d0d80e78370e7e858278540d299e74bd3882",
+                "reference": "cfe0d0d80e78370e7e858278540d299e74bd3882",
                 "shasum": ""
             },
             "require": {
+                "oranfry/jars-contracts": "*",
                 "oranfry/jars-core": "*",
                 "oranfry/subsimple": "*"
             },
@@ -242,9 +243,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-cli/issues",
-                "source": "https://github.com/oranfry/jars-cli/tree/1.5.1"
+                "source": "https://github.com/oranfry/jars-cli/tree/1.6.0"
             },
-            "time": "2024-07-26T09:29:43+00:00"
+            "time": "2024-08-23T22:14:26+00:00"
         },
         {
             "name": "oranfry/jars-client",
@@ -305,16 +306,16 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "2948fdd39d3b52d3a74e6bf029a086ea3e822354"
+                "reference": "af9251226e71070b595f826b9c81e10af2c48bf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/2948fdd39d3b52d3a74e6bf029a086ea3e822354",
-                "reference": "2948fdd39d3b52d3a74e6bf029a086ea3e822354",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/af9251226e71070b595f826b9c81e10af2c48bf2",
+                "reference": "af9251226e71070b595f826b9c81e10af2c48bf2",
                 "shasum": ""
             },
             "require": {
@@ -329,9 +330,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/3.2.0"
+                "source": "https://github.com/oranfry/jars-core/tree/3.2.1"
             },
-            "time": "2024-08-22T10:43:32+00:00"
+            "time": "2024-08-24T03:28:17+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -414,16 +415,16 @@
         },
         {
             "name": "oranfry/obex",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/obex.git",
-                "reference": "1b2d669a4963188934129a32f75c3e485fea6d04"
+                "reference": "591b959732ae1c0ad0227fdcc4208da5ac8ad75d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/obex/zipball/1b2d669a4963188934129a32f75c3e485fea6d04",
-                "reference": "1b2d669a4963188934129a32f75c3e485fea6d04",
+                "url": "https://api.github.com/repos/oranfry/obex/zipball/591b959732ae1c0ad0227fdcc4208da5ac8ad75d",
+                "reference": "591b959732ae1c0ad0227fdcc4208da5ac8ad75d",
                 "shasum": ""
             },
             "type": "library",
@@ -435,22 +436,22 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/obex/issues",
-                "source": "https://github.com/oranfry/obex/tree/2.0.0"
+                "source": "https://github.com/oranfry/obex/tree/2.1.0"
             },
-            "time": "2024-05-14T08:05:32+00:00"
+            "time": "2024-08-23T23:15:52+00:00"
         },
         {
             "name": "oranfry/subsimple",
-            "version": "1.1.5",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "143ef3bfe21731b74068a540ccac559a2ab079c2"
+                "reference": "97190b25b905ff0265b2cc6e9dc339a9a53fe267"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/143ef3bfe21731b74068a540ccac559a2ab079c2",
-                "reference": "143ef3bfe21731b74068a540ccac559a2ab079c2",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/97190b25b905ff0265b2cc6e9dc339a9a53fe267",
+                "reference": "97190b25b905ff0265b2cc6e9dc339a9a53fe267",
                 "shasum": ""
             },
             "require": {
@@ -465,9 +466,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/subsimple/issues",
-                "source": "https://github.com/oranfry/subsimple/tree/1.1.5"
+                "source": "https://github.com/oranfry/subsimple/tree/1.2.0"
             },
-            "time": "2024-06-08T08:29:45+00:00"
+            "time": "2024-08-23T23:04:33+00:00"
         },
         {
             "name": "psr/http-factory",

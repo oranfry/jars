@@ -442,16 +442,16 @@
         },
         {
             "name": "oranfry/subsimple",
-            "version": "1.2.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "7c8c3906c10922530198195f17ba546fa350e681"
+                "reference": "38f1681d66db8cef3562fa6b5733d137028ce42f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/7c8c3906c10922530198195f17ba546fa350e681",
-                "reference": "7c8c3906c10922530198195f17ba546fa350e681",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/38f1681d66db8cef3562fa6b5733d137028ce42f",
+                "reference": "38f1681d66db8cef3562fa6b5733d137028ce42f",
                 "shasum": ""
             },
             "require": {
@@ -466,9 +466,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/subsimple/issues",
-                "source": "https://github.com/oranfry/subsimple/tree/1.2.1"
+                "source": "https://github.com/oranfry/subsimple/tree/2.0.0"
             },
-            "time": "2024-08-24T03:33:15+00:00"
+            "time": "2024-10-23T22:30:12+00:00"
         },
         {
             "name": "psr/http-factory",
@@ -580,16 +580,16 @@
         },
         {
             "name": "psr/log",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "79dff0b268932c640297f5208d6298f71855c03e"
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/79dff0b268932c640297f5208d6298f71855c03e",
-                "reference": "79dff0b268932c640297f5208d6298f71855c03e",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
                 "shasum": ""
             },
             "require": {
@@ -624,9 +624,9 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/3.0.1"
+                "source": "https://github.com/php-fig/log/tree/3.0.2"
             },
-            "time": "2024-08-21T13:31:24+00:00"
+            "time": "2024-09-11T13:17:53+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -678,12 +678,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "88c803ff8f94be0da133dc731d62ddc4ab9def70"
+                "reference": "383514bb4326e1e229d9dff0c97ccfba55289225"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/88c803ff8f94be0da133dc731d62ddc4ab9def70",
-                "reference": "88c803ff8f94be0da133dc731d62ddc4ab9def70",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/383514bb4326e1e229d9dff0c97ccfba55289225",
+                "reference": "383514bb4326e1e229d9dff0c97ccfba55289225",
                 "shasum": ""
             },
             "require": {
@@ -760,7 +760,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-08-08T14:43:21+00:00"
+            "time": "2024-09-05T09:27:54+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

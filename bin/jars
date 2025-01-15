@@ -87,12 +87,22 @@ if (isset($arguments['portal'])) {
 
 define('FLAGS', $flags);
 
-if (isset($arguments['connection-string'])) {
-    define('CONNECTION_STRING', $arguments['connection-string']);
-} else {
+if (isset($arguments['autoload'])) {
+    require $arguments['autoload'];
+}
+
+if (defined('CONNECTION_STRING') && isset($arguments['connection-string']) && CONNECTION_STRING !== $arguments['connection-string']) {
+    error_log('Multiple conflicting connection strings specified', 4);
+}
+
+if (!defined('CONNECTION_STRING') && !isset($arguments['connection-string'])) {
     error_log('Please specify connection-string', 4);
     usage($command, $parameters);
     exit(1);
+}
+
+if (!defined('CONNECTION_STRING')) {
+    define('CONNECTION_STRING', $arguments['connection-string']);
 }
 
 if ($arguments['token']) {
@@ -115,10 +125,6 @@ if ($arguments['token']) {
 
     define('USERNAME', $arguments['username']);
     define('PASSWORD', $arguments['password']);
-}
-
-if (isset($arguments['autoload'])) {
-    require $arguments['autoload'];
 }
 
 unset($arguments, $command, $details, $flags, $i, $matches, $param, $parameters, $pattern, $rem_argv, $short);

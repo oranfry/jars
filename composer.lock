@@ -183,16 +183,16 @@
         },
         {
             "name": "oranfry/jars-admin",
-            "version": "1.11.0",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "5e25d7e9219118af0093df9317cae8d000e7b63b"
+                "reference": "b91f056d2d506d2b658ed8ac02725de723a38b1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/5e25d7e9219118af0093df9317cae8d000e7b63b",
-                "reference": "5e25d7e9219118af0093df9317cae8d000e7b63b",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/b91f056d2d506d2b658ed8ac02725de723a38b1d",
+                "reference": "b91f056d2d506d2b658ed8ac02725de723a38b1d",
                 "shasum": ""
             },
             "require": {
@@ -211,9 +211,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-admin/issues",
-                "source": "https://github.com/oranfry/jars-admin/tree/1.11.0"
+                "source": "https://github.com/oranfry/jars-admin/tree/1.12.0"
             },
-            "time": "2024-11-13T23:28:26+00:00"
+            "time": "2025-01-28T22:58:33+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -415,16 +415,16 @@
         },
         {
             "name": "oranfry/obex",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/obex.git",
-                "reference": "591b959732ae1c0ad0227fdcc4208da5ac8ad75d"
+                "reference": "5cfd8969c2ea323d834d36769a140f0e16fb8702"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/obex/zipball/591b959732ae1c0ad0227fdcc4208da5ac8ad75d",
-                "reference": "591b959732ae1c0ad0227fdcc4208da5ac8ad75d",
+                "url": "https://api.github.com/repos/oranfry/obex/zipball/5cfd8969c2ea323d834d36769a140f0e16fb8702",
+                "reference": "5cfd8969c2ea323d834d36769a140f0e16fb8702",
                 "shasum": ""
             },
             "type": "library",
@@ -436,9 +436,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/obex/issues",
-                "source": "https://github.com/oranfry/obex/tree/2.1.0"
+                "source": "https://github.com/oranfry/obex/tree/2.2.0"
             },
-            "time": "2024-08-23T23:15:52+00:00"
+            "time": "2024-12-31T22:30:29+00:00"
         },
         {
             "name": "oranfry/subsimple",
@@ -678,12 +678,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "e43cf00d22ebdefcad23a4d91449fc6e38a6be25"
+                "reference": "87d06784293b7c5f0ab3f1885110a5166fff041a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/e43cf00d22ebdefcad23a4d91449fc6e38a6be25",
-                "reference": "e43cf00d22ebdefcad23a4d91449fc6e38a6be25",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/87d06784293b7c5f0ab3f1885110a5166fff041a",
+                "reference": "87d06784293b7c5f0ab3f1885110a5166fff041a",
                 "shasum": ""
             },
             "require": {
@@ -760,7 +760,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-12-27T11:57:33+00:00"
+            "time": "2025-01-28T12:04:47+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

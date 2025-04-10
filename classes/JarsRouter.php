@@ -12,14 +12,19 @@ class JarsRouter extends \subsimple\Router
         'CLI *' => [
             'FORWARD' => CliRouter::class,
         ],
-
-        'HTTP /api.*' => [
-            'FORWARD' => HttpRouter::class,
-            'EAT' => '/api',
-        ],
-
-        'HTTP .*' => [
-            'FORWARD' => AdminRouter::class,
-        ],
    ];
 }
+
+(function () {
+    $prefix = !defined('MATCH_MODE') || MATCH_MODE !== 'path' || !defined('MATCHED_PATH') ? null : '/' . MATCHED_PATH;
+
+    JarsRouter::add("HTTP $prefix/api.*", [
+        'FORWARD' => HttpRouter::class,
+        'EAT' => $prefix . '/api',
+    ]);
+
+    JarsRouter::add("HTTP $prefix.*", [
+        'FORWARD' => AdminRouter::class,
+        'EAT' => $prefix,
+    ]);
+})();

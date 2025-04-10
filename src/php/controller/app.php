@@ -39,7 +39,7 @@ switch (preg_replace(',.*/,', '', $_plugin_dir)) {
 
         if (in_array(AUTHSCHEME, ['header', 'cookie'])) {
             if (!$token) {
-                header('Location: /');
+                header('Location: ' . HOMEPATH);
                 die();
             }
 
@@ -47,7 +47,7 @@ switch (preg_replace(',.*/,', '', $_plugin_dir)) {
 
             if (!$jars->touch()) {
                 setcookie('token', '', time() - 3600);
-                header('Location: /');
+                header('Location: ' . HOMEPATH);
                 die();
             }
         }

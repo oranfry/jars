@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.7.0",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "a70f5c95fb43bc83f07c9c948baa0dc1829bf201"
+                "reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/a70f5c95fb43bc83f07c9c948baa0dc1829bf201",
-                "reference": "a70f5c95fb43bc83f07c9c948baa0dc1829bf201",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/c2270caaabe631b3b44c85f99e5a04bbb8060d16",
+                "reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16",
                 "shasum": ""
             },
             "require": {
@@ -104,7 +104,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.7.0"
+                "source": "https://github.com/guzzle/psr7/tree/2.7.1"
             },
             "funding": [
                 {
@@ -120,20 +120,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-18T11:15:46+00:00"
+            "time": "2025-03-27T12:30:47+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Jean85/pretty-package-versions.git",
-                "reference": "3c4e5f62ba8d7de1734312e4fff32f67a8daaf10"
+                "reference": "4d7aa5dab42e2a76d99559706022885de0e18e1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Jean85/pretty-package-versions/zipball/3c4e5f62ba8d7de1734312e4fff32f67a8daaf10",
-                "reference": "3c4e5f62ba8d7de1734312e4fff32f67a8daaf10",
+                "url": "https://api.github.com/repos/Jean85/pretty-package-versions/zipball/4d7aa5dab42e2a76d99559706022885de0e18e1a",
+                "reference": "4d7aa5dab42e2a76d99559706022885de0e18e1a",
                 "shasum": ""
             },
             "require": {
@@ -143,8 +143,9 @@
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.2",
                 "jean85/composer-provided-replaced-stub-package": "^1.0",
-                "phpstan/phpstan": "^1.4",
+                "phpstan/phpstan": "^2.0",
                 "phpunit/phpunit": "^7.5|^8.5|^9.6",
+                "rector/rector": "^2.0",
                 "vimeo/psalm": "^4.3 || ^5.0"
             },
             "type": "library",
@@ -177,22 +178,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Jean85/pretty-package-versions/issues",
-                "source": "https://github.com/Jean85/pretty-package-versions/tree/2.1.0"
+                "source": "https://github.com/Jean85/pretty-package-versions/tree/2.1.1"
             },
-            "time": "2024-11-18T16:19:46+00:00"
+            "time": "2025-03-19T14:43:43+00:00"
         },
         {
             "name": "oranfry/jars-admin",
-            "version": "1.12.0",
+            "version": "1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "b91f056d2d506d2b658ed8ac02725de723a38b1d"
+                "reference": "65c65072bae12f2a3d8050095097cfea6f846d6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/b91f056d2d506d2b658ed8ac02725de723a38b1d",
-                "reference": "b91f056d2d506d2b658ed8ac02725de723a38b1d",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/65c65072bae12f2a3d8050095097cfea6f846d6b",
+                "reference": "65c65072bae12f2a3d8050095097cfea6f846d6b",
                 "shasum": ""
             },
             "require": {
@@ -211,9 +212,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-admin/issues",
-                "source": "https://github.com/oranfry/jars-admin/tree/1.12.0"
+                "source": "https://github.com/oranfry/jars-admin/tree/1.13.0"
             },
-            "time": "2025-01-28T22:58:33+00:00"
+            "time": "2025-04-10T09:30:14+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -442,16 +443,16 @@
         },
         {
             "name": "oranfry/subsimple",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "38f1681d66db8cef3562fa6b5733d137028ce42f"
+                "reference": "9ebf82c318fd24db8030a2d7999ad45b114ed165"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/38f1681d66db8cef3562fa6b5733d137028ce42f",
-                "reference": "38f1681d66db8cef3562fa6b5733d137028ce42f",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/9ebf82c318fd24db8030a2d7999ad45b114ed165",
+                "reference": "9ebf82c318fd24db8030a2d7999ad45b114ed165",
                 "shasum": ""
             },
             "require": {
@@ -466,9 +467,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/subsimple/issues",
-                "source": "https://github.com/oranfry/subsimple/tree/2.0.0"
+                "source": "https://github.com/oranfry/subsimple/tree/2.0.1"
             },
-            "time": "2024-10-23T22:30:12+00:00"
+            "time": "2025-03-22T22:10:07+00:00"
         },
         {
             "name": "psr/http-factory",
@@ -678,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "c2c5c3ac4545cf5e835061eff7568c746bd1524c"
+                "reference": "6341d842ea8bde2e44bdd58b9a5a95931bac3b93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/c2c5c3ac4545cf5e835061eff7568c746bd1524c",
-                "reference": "c2c5c3ac4545cf5e835061eff7568c746bd1524c",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/6341d842ea8bde2e44bdd58b9a5a95931bac3b93",
+                "reference": "6341d842ea8bde2e44bdd58b9a5a95931bac3b93",
                 "shasum": ""
             },
             "require": {
@@ -760,7 +761,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-02-18T13:59:44+00:00"
+            "time": "2025-04-10T09:23:00+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

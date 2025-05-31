@@ -307,16 +307,16 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "038bd28b4b2b5a1e17d1232b013c5379bb1c7950"
+                "reference": "2de1d26f5898a6e756d5e04dfd2091722ff99a49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/038bd28b4b2b5a1e17d1232b013c5379bb1c7950",
-                "reference": "038bd28b4b2b5a1e17d1232b013c5379bb1c7950",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/2de1d26f5898a6e756d5e04dfd2091722ff99a49",
+                "reference": "2de1d26f5898a6e756d5e04dfd2091722ff99a49",
                 "shasum": ""
             },
             "require": {
@@ -331,9 +331,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/4.0.1"
+                "source": "https://github.com/oranfry/jars-core/tree/4.0.2"
             },
-            "time": "2025-05-10T02:39:57+00:00"
+            "time": "2025-05-12T10:18:01+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "d1a1f1305bec67b01d9d54b4836fe5567559c445"
+                "reference": "bd09259fe9c6913cc5fe2b7b7d6846751e6225ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/d1a1f1305bec67b01d9d54b4836fe5567559c445",
-                "reference": "d1a1f1305bec67b01d9d54b4836fe5567559c445",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/bd09259fe9c6913cc5fe2b7b7d6846751e6225ae",
+                "reference": "bd09259fe9c6913cc5fe2b7b7d6846751e6225ae",
                 "shasum": ""
             },
             "require": {
@@ -761,20 +761,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-04-25T14:36:03+00:00"
+            "time": "2025-05-22T12:49:05+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.5.1",
+            "version": "v3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6"
+                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
-                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/63afe740e99a13ba87ec199bb07bbdee937a5b62",
+                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62",
                 "shasum": ""
             },
             "require": {
@@ -787,7 +787,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.5-dev"
+                    "dev-main": "3.6-dev"
                 }
             },
             "autoload": {
@@ -812,7 +812,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.1"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.6.0"
             },
             "funding": [
                 {
@@ -828,7 +828,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:20:29+00:00"
+            "time": "2024-09-25T14:21:43+00:00"
         },
         {
             "name": "symfony/options-resolver",

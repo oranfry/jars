@@ -21,7 +21,7 @@ $connection_string = (function () {
     $host_config = (object) [];
 
     if (!defined('MATCH_MODE')) {
-        define('MATCH_MODE', isset($_SERVER['MATCH_MODE']) ? $_SERVER['MATCH_MODE'] :'domain');
+        define('MATCH_MODE', isset($_SERVER['MATCH_MODE']) ? $_SERVER['MATCH_MODE'] : 'domain');
     }
 
     switch (MATCH_MODE) {

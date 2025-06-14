@@ -184,16 +184,16 @@
         },
         {
             "name": "oranfry/jars-admin",
-            "version": "1.13.2",
+            "version": "1.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "532325e7e2ab8753d21b05678b5caae57edbc12e"
+                "reference": "75d9db4f5f4fecea7683e0a232e8f07e27213523"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/532325e7e2ab8753d21b05678b5caae57edbc12e",
-                "reference": "532325e7e2ab8753d21b05678b5caae57edbc12e",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/75d9db4f5f4fecea7683e0a232e8f07e27213523",
+                "reference": "75d9db4f5f4fecea7683e0a232e8f07e27213523",
                 "shasum": ""
             },
             "require": {
@@ -212,9 +212,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-admin/issues",
-                "source": "https://github.com/oranfry/jars-admin/tree/1.13.2"
+                "source": "https://github.com/oranfry/jars-admin/tree/1.14.1"
             },
-            "time": "2025-05-31T05:10:16+00:00"
+            "time": "2025-06-14T10:31:27+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -443,16 +443,16 @@
         },
         {
             "name": "oranfry/subsimple",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "9ebf82c318fd24db8030a2d7999ad45b114ed165"
+                "reference": "4badfa84f57be85d49c5d70ec2bf197ac1151bbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/9ebf82c318fd24db8030a2d7999ad45b114ed165",
-                "reference": "9ebf82c318fd24db8030a2d7999ad45b114ed165",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/4badfa84f57be85d49c5d70ec2bf197ac1151bbc",
+                "reference": "4badfa84f57be85d49c5d70ec2bf197ac1151bbc",
                 "shasum": ""
             },
             "require": {
@@ -467,9 +467,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/subsimple/issues",
-                "source": "https://github.com/oranfry/subsimple/tree/2.0.1"
+                "source": "https://github.com/oranfry/subsimple/tree/2.0.2"
             },
-            "time": "2025-03-22T22:10:07+00:00"
+            "time": "2025-06-07T09:50:55+00:00"
         },
         {
             "name": "psr/http-factory",
@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "1d45188abb44954f9706f21bc89869942edf0850"
+                "reference": "3b9eff41bbd5c95f0d57d062fa14b52c71679874"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/1d45188abb44954f9706f21bc89869942edf0850",
-                "reference": "1d45188abb44954f9706f21bc89869942edf0850",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/3b9eff41bbd5c95f0d57d062fa14b52c71679874",
+                "reference": "3b9eff41bbd5c95f0d57d062fa14b52c71679874",
                 "shasum": ""
             },
             "require": {
@@ -761,7 +761,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-06-03T09:56:34+00:00"
+            "time": "2025-06-13T17:25:21+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

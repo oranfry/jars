@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7084fb615517a0a332066aad6bc15779",
+    "content-hash": "3baed1db92416ed78cce4f91f5e988a3",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -184,16 +184,16 @@
         },
         {
             "name": "oranfry/jars-admin",
-            "version": "1.14.1",
+            "version": "1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "75d9db4f5f4fecea7683e0a232e8f07e27213523"
+                "reference": "d6af1966879218bb9a37e654b12e98a6f0581c54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/75d9db4f5f4fecea7683e0a232e8f07e27213523",
-                "reference": "75d9db4f5f4fecea7683e0a232e8f07e27213523",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/d6af1966879218bb9a37e654b12e98a6f0581c54",
+                "reference": "d6af1966879218bb9a37e654b12e98a6f0581c54",
                 "shasum": ""
             },
             "require": {
@@ -212,9 +212,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-admin/issues",
-                "source": "https://github.com/oranfry/jars-admin/tree/1.14.1"
+                "source": "https://github.com/oranfry/jars-admin/tree/1.15.0"
             },
-            "time": "2025-06-14T10:31:27+00:00"
+            "time": "2025-06-17T12:19:02+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -250,20 +250,20 @@
         },
         {
             "name": "oranfry/jars-client",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-client.git",
-                "reference": "190b11c8b6280e38999cbcb45635310f8fc9729b"
+                "reference": "98134e6ee3e4c17c2fcc0a80f9b7cd7f8ea476ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/190b11c8b6280e38999cbcb45635310f8fc9729b",
-                "reference": "190b11c8b6280e38999cbcb45635310f8fc9729b",
+                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/98134e6ee3e4c17c2fcc0a80f9b7cd7f8ea476ba",
+                "reference": "98134e6ee3e4c17c2fcc0a80f9b7cd7f8ea476ba",
                 "shasum": ""
             },
             "require": {
-                "oranfry/jars-contracts": "^7.0.0"
+                "oranfry/jars-contracts": "^7"
             },
             "type": "library",
             "autoload": {
@@ -274,9 +274,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-client/issues",
-                "source": "https://github.com/oranfry/jars-client/tree/1.5.1"
+                "source": "https://github.com/oranfry/jars-client/tree/1.5.2"
             },
-            "time": "2025-04-14T00:05:04+00:00"
+            "time": "2025-06-16T10:27:22+00:00"
         },
         {
             "name": "oranfry/jars-contracts",
@@ -307,20 +307,20 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "4.1.0",
+            "version": "4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "dc517f5c3ed9f282b31718dfe3b4ca8173db025d"
+                "reference": "11962990bb1b034be2c8cc6cc6361aebe4c5485a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/dc517f5c3ed9f282b31718dfe3b4ca8173db025d",
-                "reference": "dc517f5c3ed9f282b31718dfe3b4ca8173db025d",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/11962990bb1b034be2c8cc6cc6361aebe4c5485a",
+                "reference": "11962990bb1b034be2c8cc6cc6361aebe4c5485a",
                 "shasum": ""
             },
             "require": {
-                "oranfry/jars-contracts": "^7.0.0"
+                "oranfry/jars-contracts": "^7"
             },
             "type": "library",
             "autoload": {
@@ -331,26 +331,26 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/4.1.0"
+                "source": "https://github.com/oranfry/jars-core/tree/4.2.1"
             },
-            "time": "2025-06-16T10:14:21+00:00"
+            "time": "2025-06-17T11:12:18+00:00"
         },
         {
             "name": "oranfry/jars-http",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-http.git",
-                "reference": "93282e976e7f3bda33313b882e01f8bc3841849d"
+                "reference": "4588430f28d1d6a05d562c2f92338a4ea3895e23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-http/zipball/93282e976e7f3bda33313b882e01f8bc3841849d",
-                "reference": "93282e976e7f3bda33313b882e01f8bc3841849d",
+                "url": "https://api.github.com/repos/oranfry/jars-http/zipball/4588430f28d1d6a05d562c2f92338a4ea3895e23",
+                "reference": "4588430f28d1d6a05d562c2f92338a4ea3895e23",
                 "shasum": ""
             },
             "require": {
-                "oranfry/jars-contracts": "^7.0.0",
+                "oranfry/jars-contracts": "^7",
                 "oranfry/subsimple": "*"
             },
             "type": "library",
@@ -362,9 +362,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-http/issues",
-                "source": "https://github.com/oranfry/jars-http/tree/1.2.0"
+                "source": "https://github.com/oranfry/jars-http/tree/1.2.1"
             },
-            "time": "2024-06-08T08:15:42+00:00"
+            "time": "2025-06-16T10:24:40+00:00"
         },
         {
             "name": "oranfry/jars-refreshd",
@@ -443,16 +443,16 @@
         },
         {
             "name": "oranfry/subsimple",
-            "version": "2.0.2",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "4badfa84f57be85d49c5d70ec2bf197ac1151bbc"
+                "reference": "9bdad4110b3c5b3f280390eff5ebf8dc273d9076"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/4badfa84f57be85d49c5d70ec2bf197ac1151bbc",
-                "reference": "4badfa84f57be85d49c5d70ec2bf197ac1151bbc",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/9bdad4110b3c5b3f280390eff5ebf8dc273d9076",
+                "reference": "9bdad4110b3c5b3f280390eff5ebf8dc273d9076",
                 "shasum": ""
             },
             "require": {
@@ -467,9 +467,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/subsimple/issues",
-                "source": "https://github.com/oranfry/subsimple/tree/2.0.2"
+                "source": "https://github.com/oranfry/subsimple/tree/2.1.0"
             },
-            "time": "2025-06-07T09:50:55+00:00"
+            "time": "2025-06-17T11:16:40+00:00"
         },
         {
             "name": "psr/http-factory",

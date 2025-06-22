@@ -443,16 +443,16 @@
         },
         {
             "name": "oranfry/subsimple",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "9bdad4110b3c5b3f280390eff5ebf8dc273d9076"
+                "reference": "d94a13d48fabe87493ae076b5553f85ee39008b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/9bdad4110b3c5b3f280390eff5ebf8dc273d9076",
-                "reference": "9bdad4110b3c5b3f280390eff5ebf8dc273d9076",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/d94a13d48fabe87493ae076b5553f85ee39008b4",
+                "reference": "d94a13d48fabe87493ae076b5553f85ee39008b4",
                 "shasum": ""
             },
             "require": {
@@ -467,9 +467,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/subsimple/issues",
-                "source": "https://github.com/oranfry/subsimple/tree/2.1.0"
+                "source": "https://github.com/oranfry/subsimple/tree/2.1.1"
             },
-            "time": "2025-06-17T11:16:40+00:00"
+            "time": "2025-06-22T11:34:50+00:00"
         },
         {
             "name": "psr/http-factory",

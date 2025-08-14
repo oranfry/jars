@@ -307,16 +307,16 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "4.4.0",
+            "version": "4.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "ae1e481693fcd7c3a2a6defecec456292ae885b1"
+                "reference": "4886a01b61e352a6821a6ab3af0da9e200e66dfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/ae1e481693fcd7c3a2a6defecec456292ae885b1",
-                "reference": "ae1e481693fcd7c3a2a6defecec456292ae885b1",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/4886a01b61e352a6821a6ab3af0da9e200e66dfe",
+                "reference": "4886a01b61e352a6821a6ab3af0da9e200e66dfe",
                 "shasum": ""
             },
             "require": {
@@ -331,9 +331,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/4.4.0"
+                "source": "https://github.com/oranfry/jars-core/tree/4.4.1"
             },
-            "time": "2025-06-23T08:32:56+00:00"
+            "time": "2025-08-14T17:58:16+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "7761d2b15f7f13b060631af66bcf0db085f44d7e"
+                "reference": "458c0cfe93c4e316fa8702046998310db0c548e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/7761d2b15f7f13b060631af66bcf0db085f44d7e",
-                "reference": "7761d2b15f7f13b060631af66bcf0db085f44d7e",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/458c0cfe93c4e316fa8702046998310db0c548e5",
+                "reference": "458c0cfe93c4e316fa8702046998310db0c548e5",
                 "shasum": ""
             },
             "require": {
@@ -761,7 +761,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-06-20T15:49:44+00:00"
+            "time": "2025-08-12T09:04:58+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -832,16 +832,16 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v6.4.16",
+            "version": "v6.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "368128ad168f20e22c32159b9f761e456cec0c78"
+                "reference": "baee5736ddf7a0486dd68ca05aa4fd7e64458d3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/368128ad168f20e22c32159b9f761e456cec0c78",
-                "reference": "368128ad168f20e22c32159b9f761e456cec0c78",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/baee5736ddf7a0486dd68ca05aa4fd7e64458d3d",
+                "reference": "baee5736ddf7a0486dd68ca05aa4fd7e64458d3d",
                 "shasum": ""
             },
             "require": {
@@ -879,7 +879,7 @@
                 "options"
             ],
             "support": {
-                "source": "https://github.com/symfony/options-resolver/tree/v6.4.16"
+                "source": "https://github.com/symfony/options-resolver/tree/v6.4.24"
             },
             "funding": [
                 {
@@ -891,11 +891,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-20T10:57:02+00:00"
+            "time": "2025-07-14T16:38:25+00:00"
         }
     ],
     "packages-dev": [],

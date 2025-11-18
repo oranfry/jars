@@ -1,6 +1,7 @@
 {
     "autoload": {
         "files": [
+            "machine.php",
             "sentry.php"
         ],
         "psr-4": {

@@ -2,7 +2,7 @@
 
 define('APP_HOME', dirname(__DIR__));
 
-@include APP_HOME . '/machine.php';
+require APP_HOME . '/vendor/autoload.php';
 
 // first match a portal, run its autoload (if any), and get its connection string
 
@@ -117,5 +117,4 @@ $connection_string = (function () {
 
 // now boot subsimple
 
-require APP_HOME . '/vendor/autoload.php';
 require APP_HOME . '/vendor/oranfry/subsimple/subsimple.php';

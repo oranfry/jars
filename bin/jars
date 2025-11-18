@@ -3,7 +3,7 @@
 
 define('APP_HOME', dirname(__DIR__));
 
-@include APP_HOME . '/machine.php';
+require APP_HOME . '/vendor/autoload.php';
 require APP_HOME . '/vendor/oranfry/jars-cli/lib.php';
 
 $command = array_shift($argv);
@@ -129,5 +129,4 @@ if ($arguments['token']) {
 
 unset($arguments, $command, $details, $flags, $i, $matches, $param, $parameters, $pattern, $rem_argv, $short);
 
-require APP_HOME . '/vendor/autoload.php';
 require APP_HOME . '/vendor/oranfry/subsimple/subsimple.php';

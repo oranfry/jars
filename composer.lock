@@ -307,16 +307,16 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "4.4.2",
+            "version": "4.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "8ba2080c98e6664ba3aa37a5aa4bf5f97e385311"
+                "reference": "c6b28420dd0fba132a93c03750f74e0b699a0576"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/8ba2080c98e6664ba3aa37a5aa4bf5f97e385311",
-                "reference": "8ba2080c98e6664ba3aa37a5aa4bf5f97e385311",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/c6b28420dd0fba132a93c03750f74e0b699a0576",
+                "reference": "c6b28420dd0fba132a93c03750f74e0b699a0576",
                 "shasum": ""
             },
             "require": {
@@ -331,9 +331,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/4.4.2"
+                "source": "https://github.com/oranfry/jars-core/tree/4.6.0"
             },
-            "time": "2025-08-16T19:51:01+00:00"
+            "time": "2025-11-18T01:50:12+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -443,16 +443,16 @@
         },
         {
             "name": "oranfry/subsimple",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "2bde3baca7a78af6a153e784c67180441b1e92fb"
+                "reference": "3282ac1d7e2e872d3fd3663135fd3702ab5aa496"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/2bde3baca7a78af6a153e784c67180441b1e92fb",
-                "reference": "2bde3baca7a78af6a153e784c67180441b1e92fb",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/3282ac1d7e2e872d3fd3663135fd3702ab5aa496",
+                "reference": "3282ac1d7e2e872d3fd3663135fd3702ab5aa496",
                 "shasum": ""
             },
             "require": {
@@ -467,9 +467,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/subsimple/issues",
-                "source": "https://github.com/oranfry/subsimple/tree/2.3.0"
+                "source": "https://github.com/oranfry/subsimple/tree/2.3.1"
             },
-            "time": "2025-09-23T23:31:52+00:00"
+            "time": "2025-11-17T20:57:21+00:00"
         },
         {
             "name": "psr/http-factory",
@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "bc33d2b81d81de4de0e8016466a94e7e26919809"
+                "reference": "10bf447417f7a51193cce56b45c1f79e1d88cb0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/bc33d2b81d81de4de0e8016466a94e7e26919809",
-                "reference": "bc33d2b81d81de4de0e8016466a94e7e26919809",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/10bf447417f7a51193cce56b45c1f79e1d88cb0b",
+                "reference": "10bf447417f7a51193cce56b45c1f79e1d88cb0b",
                 "shasum": ""
             },
             "require": {
@@ -695,7 +695,7 @@
                 "jean85/pretty-package-versions": "^1.5|^2.0.4",
                 "php": "^7.2|^8.0",
                 "psr/log": "^1.0|^2.0|^3.0",
-                "symfony/options-resolver": "^4.4.30|^5.0.11|^6.0|^7.0"
+                "symfony/options-resolver": "^4.4.30|^5.0.11|^6.0|^7.0|^8.0"
             },
             "conflict": {
                 "raven/raven": "*"
@@ -760,7 +760,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-09-29T22:30:34+00:00"
+            "time": "2025-11-11T09:52:39+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

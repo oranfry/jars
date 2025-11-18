@@ -3,6 +3,5 @@
 
 define('APP_HOME', __DIR__);
 
-@include APP_HOME . '/machine.php';
 require APP_HOME . '/vendor/autoload.php';
 require APP_HOME . '/vendor/oranfry/subsimple/build.php';

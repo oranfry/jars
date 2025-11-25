@@ -39,8 +39,8 @@ $connection_string = (function () {
             }
 
         case 'none':
-            define('BASEPATH', '');
-            define('HOMEPATH', '/');
+            define('JARS_ADMIN_BASEPATH', '');
+            define('JARS_ADMIN_HOMEPATH', '/');
             break;
 
         case 'path':
@@ -52,8 +52,8 @@ $connection_string = (function () {
             }
 
             define('MATCHED_PATH', $matches[1]);
-            define('BASEPATH', '/' . MATCHED_PATH);
-            define('HOMEPATH', BASEPATH);
+            define('JARS_ADMIN_BASEPATH', '/' . MATCHED_PATH);
+            define('JARS_ADMIN_HOMEPATH', JARS_ADMIN_BASEPATH);
 
             foreach([
                 APP_HOME . '/configs/' . MATCHED_PATH . '.php',

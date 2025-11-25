@@ -7,8 +7,8 @@
         }
     },
     "combine": {
-        "js": {
-            "basename": "app",
+        "admin-js": {
+            "basename": "admin",
             "extension": "js",
             "files": [
                 "node_modules/jquery/dist/jquery.min.js",
@@ -20,8 +20,8 @@
                 "close": "src/js/jars/admin/scope-close.js"
             }
         },
-        "css": {
-            "basename": "styles",
+        "admin-css": {
+            "basename": "admin",
             "extension": "css",
             "files": [
                 "include:src/css/jars/admin.json"

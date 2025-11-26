@@ -184,16 +184,16 @@
         },
         {
             "name": "oranfry/jars-admin",
-            "version": "1.17.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "a28097416634ada839ca549bc07f423abb2b886b"
+                "reference": "e8bfcdc362dda72dac6187668f104af0c8b375c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/a28097416634ada839ca549bc07f423abb2b886b",
-                "reference": "a28097416634ada839ca549bc07f423abb2b886b",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/e8bfcdc362dda72dac6187668f104af0c8b375c4",
+                "reference": "e8bfcdc362dda72dac6187668f104af0c8b375c4",
                 "shasum": ""
             },
             "require": {
@@ -212,9 +212,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-admin/issues",
-                "source": "https://github.com/oranfry/jars-admin/tree/1.17.0"
+                "source": "https://github.com/oranfry/jars-admin/tree/2.0.0"
             },
-            "time": "2025-10-12T21:51:53+00:00"
+            "time": "2025-11-26T00:17:03+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "10bf447417f7a51193cce56b45c1f79e1d88cb0b"
+                "reference": "cdbfb21e489a168ea25a6737d7dbd9f481b868b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/10bf447417f7a51193cce56b45c1f79e1d88cb0b",
-                "reference": "10bf447417f7a51193cce56b45c1f79e1d88cb0b",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/cdbfb21e489a168ea25a6737d7dbd9f481b868b9",
+                "reference": "cdbfb21e489a168ea25a6737d7dbd9f481b868b9",
                 "shasum": ""
             },
             "require": {
@@ -760,7 +760,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-11-11T09:52:39+00:00"
+            "time": "2025-11-24T09:38:53+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

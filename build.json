@@ -11,7 +11,7 @@
             "basename": "admin",
             "extension": "js",
             "files": [
-                "node_modules/jquery/dist/jquery.min.js",
+                "vendor/components/jquery/jquery.min.js",
                 "include:src/js/jars/admin.json"
             ],
             "into": "js",

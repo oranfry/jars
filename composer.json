@@ -18,7 +18,7 @@
         "components/jquery": "^3",
         "oranfry/jars-admin": "*",
         "oranfry/jars-cli": "*",
-        "oranfry/jars-contracts": "^8.0.0",
+        "oranfry/jars-contracts": "^9.0.0",
         "oranfry/jars-http": "*",
         "oranfry/jars-refreshd": "*",
         "oranfry/jars-test": "*",

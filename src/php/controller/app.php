@@ -6,13 +6,7 @@ use subsimple\Exception;
 
 switch (preg_replace(',.*/,', '', $_plugin_dir)) {
     case 'jars-cli':
-        $jars = JarsConnector::connect(CONNECTION_STRING);
-
-        if (defined('AUTH_TOKEN')) {
-            $jars->token(AUTH_TOKEN);
-        } else {
-            $jars->login(USERNAME, PASSWORD, true);
-        }
+        global $jars;
 
         break;
 

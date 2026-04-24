@@ -1,12 +1,12 @@
 <?php
 
-namespace jars;
+namespace OranFry\Jars\Bundle;
 
-use jars\admin\AdminRouter;
-use jars\cli\CliRouter;
-use jars\http\HttpRouter;
+use OranFry\Jars\Admin\AdminRouter;
+use OranFry\Jars\CLI\CliRouter;
+use OranFry\Jars\HTTP\HttpRouter;
 
-class JarsRouter extends \subsimple\Router
+class Router extends \subsimple\Router
 {
     protected static $routes = [
         'CLI *' => [
@@ -18,12 +18,12 @@ class JarsRouter extends \subsimple\Router
 (function () {
     $prefix = !defined('MATCH_MODE') || MATCH_MODE !== 'path' || !defined('MATCHED_PATH') ? null : '/' . MATCHED_PATH;
 
-    JarsRouter::add("HTTP $prefix/api.*", [
+    Router::add("HTTP $prefix/api.*", [
         'FORWARD' => HttpRouter::class,
         'EAT' => $prefix . '/api',
     ]);
 
-    JarsRouter::add("HTTP $prefix.*", [
+    Router::add("HTTP $prefix.*", [
         'FORWARD' => AdminRouter::class,
         'EAT' => $prefix,
     ]);

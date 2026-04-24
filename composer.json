@@ -5,7 +5,7 @@
             "sentry.php"
         ],
         "psr-4": {
-            "jars\\": "classes"
+            "OranFry\\Jars\\Bundle\\": "classes"
         }
     },
     "config": {

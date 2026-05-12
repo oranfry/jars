@@ -234,22 +234,22 @@
         },
         {
             "name": "oranfry/jars-admin",
-            "version": "2.1.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "55f0fc9d31f2946b6414a9fcd5b16fbc7e8d28be"
+                "reference": "4cc32b5e9b2c5aa8b82e867ace562cadf7f098da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/55f0fc9d31f2946b6414a9fcd5b16fbc7e8d28be",
-                "reference": "55f0fc9d31f2946b6414a9fcd5b16fbc7e8d28be",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/4cc32b5e9b2c5aa8b82e867ace562cadf7f098da",
+                "reference": "4cc32b5e9b2c5aa8b82e867ace562cadf7f098da",
                 "shasum": ""
             },
             "require": {
                 "components/jquery": "^3",
                 "oranfry/jars-client": "*",
-                "oranfry/jars-contracts": "*",
+                "oranfry/jars-contracts": "^10.0.0",
                 "oranfry/jars-core": "*",
                 "oranfry/obex": "*",
                 "oranfry/subsimple": "*"
@@ -257,15 +257,15 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "jars\\admin\\": "classes"
+                    "OranFry\\Jars\\Admin\\": "classes"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-admin/issues",
-                "source": "https://github.com/oranfry/jars-admin/tree/2.1.0"
+                "source": "https://github.com/oranfry/jars-admin/tree/3.0.0"
             },
-            "time": "2025-12-02T18:42:11+00:00"
+            "time": "2026-05-12T01:44:51+00:00"
         },
         {
             "name": "oranfry/jars-cli",

@@ -1,6 +1,6 @@
 <?php
 
-use jars\contract\JarsConnector;
+use OranFry\Jars\Contract\JarsConnector;
 use subsimple\Config;
 use subsimple\Exception;
 

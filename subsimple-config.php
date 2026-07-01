@@ -8,5 +8,5 @@ return (object) [
         APP_HOME . '/vendor/oranfry/jars-http',
         APP_HOME . '/vendor/oranfry/subsimple',
     ],
-    'router' => 'jars\JarsRouter',
+    'router' => 'OranFry\Jars\Bundle\Router',
 ];

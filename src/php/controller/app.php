@@ -1,8 +1,8 @@
 <?php
 
 use OranFry\Jars\Contract\JarsConnector;
-use subsimple\Config;
-use subsimple\Exception;
+use OranFry\Subsimple\Config;
+use OranFry\Subsimple\Exception;
 
 switch (preg_replace(',.*/,', '', $_plugin_dir)) {
     case 'jars-cli':

@@ -6,7 +6,7 @@ use OranFry\Jars\Admin\AdminRouter;
 use OranFry\Jars\CLI\CliRouter;
 use OranFry\Jars\HTTP\HttpRouter;
 
-class Router extends \subsimple\Router
+class Router extends \OranFry\Subsimple\Router
 {
     protected static $routes = [
         'CLI *' => [

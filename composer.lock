@@ -57,16 +57,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.12.5",
+            "version": "2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "9365d578a9fd1552ad6ca9c3cb530708526feb09"
+                "reference": "dad89620b7a6edb60c15858442eb2e408b45d8f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9365d578a9fd1552ad6ca9c3cb530708526feb09",
-                "reference": "9365d578a9fd1552ad6ca9c3cb530708526feb09",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/dad89620b7a6edb60c15858442eb2e408b45d8f4",
+                "reference": "dad89620b7a6edb60c15858442eb2e408b45d8f4",
                 "shasum": ""
             },
             "require": {
@@ -156,7 +156,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.12.5"
+                "source": "https://github.com/guzzle/psr7/tree/2.13.0"
             },
             "funding": [
                 {
@@ -172,7 +172,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-07-13T01:27:20+00:00"
+            "time": "2026-07-16T22:23:49+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -236,16 +236,16 @@
         },
         {
             "name": "oranfry/jars-admin",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-admin.git",
-                "reference": "d2620ba7563097960f02032c0cf29e36c1cf16b8"
+                "reference": "9ef530dfbeee45bfca61560f366f8b737f365a92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/d2620ba7563097960f02032c0cf29e36c1cf16b8",
-                "reference": "d2620ba7563097960f02032c0cf29e36c1cf16b8",
+                "url": "https://api.github.com/repos/oranfry/jars-admin/zipball/9ef530dfbeee45bfca61560f366f8b737f365a92",
+                "reference": "9ef530dfbeee45bfca61560f366f8b737f365a92",
                 "shasum": ""
             },
             "require": {
@@ -265,9 +265,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-admin/issues",
-                "source": "https://github.com/oranfry/jars-admin/tree/2.2.1"
+                "source": "https://github.com/oranfry/jars-admin/tree/2.2.2"
             },
-            "time": "2026-07-15T07:30:35+00:00"
+            "time": "2026-07-17T22:52:04+00:00"
         },
         {
             "name": "oranfry/jars-cli",
@@ -360,16 +360,16 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "9.5.0",
+            "version": "9.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "779662de9047465dd18ed26cc4749b5825b7f1c9"
+                "reference": "5fe8cf4b09e8f3bd650801eed4fff3a57df742ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/779662de9047465dd18ed26cc4749b5825b7f1c9",
-                "reference": "779662de9047465dd18ed26cc4749b5825b7f1c9",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/5fe8cf4b09e8f3bd650801eed4fff3a57df742ad",
+                "reference": "5fe8cf4b09e8f3bd650801eed4fff3a57df742ad",
                 "shasum": ""
             },
             "require": {
@@ -384,9 +384,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/9.5.0"
+                "source": "https://github.com/oranfry/jars-core/tree/9.6.0"
             },
-            "time": "2026-07-15T10:39:49+00:00"
+            "time": "2026-07-18T02:43:07+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -443,16 +443,16 @@
         },
         {
             "name": "oranfry/jars-test",
-            "version": "3.1.2",
+            "version": "3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-test.git",
-                "reference": "55102bf8402fc3570c0e41a23b9ef862267770a7"
+                "reference": "afad43dc61dbc8c0c07ee26857206a9f89837a93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-test/zipball/55102bf8402fc3570c0e41a23b9ef862267770a7",
-                "reference": "55102bf8402fc3570c0e41a23b9ef862267770a7",
+                "url": "https://api.github.com/repos/oranfry/jars-test/zipball/afad43dc61dbc8c0c07ee26857206a9f89837a93",
+                "reference": "afad43dc61dbc8c0c07ee26857206a9f89837a93",
                 "shasum": ""
             },
             "require": {
@@ -464,9 +464,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-test/issues",
-                "source": "https://github.com/oranfry/jars-test/tree/3.1.2"
+                "source": "https://github.com/oranfry/jars-test/tree/3.2.3"
             },
-            "time": "2026-07-15T22:01:20+00:00"
+            "time": "2026-07-18T01:48:02+00:00"
         },
         {
             "name": "oranfry/obex",
@@ -733,12 +733,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "eda729b2ba9219c762041c3aea3dbde8defa7235"
+                "reference": "2c9a00130bea1471e9eee7e6f21fbf5fb33fe66e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/eda729b2ba9219c762041c3aea3dbde8defa7235",
-                "reference": "eda729b2ba9219c762041c3aea3dbde8defa7235",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/2c9a00130bea1471e9eee7e6f21fbf5fb33fe66e",
+                "reference": "2c9a00130bea1471e9eee7e6f21fbf5fb33fe66e",
                 "shasum": ""
             },
             "require": {
@@ -820,7 +820,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2026-07-14T12:44:32+00:00"
+            "time": "2026-07-16T11:56:00+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1062,5 +1062,5 @@
     "platform-overrides": {
         "php": "8.1.999"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }

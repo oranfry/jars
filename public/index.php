@@ -104,7 +104,7 @@ $connection_string = (function () {
         $host_config = (object) ((array) $host_config + (array) $portal_config);
     }
 
-    if (!$connection_string = $host_config->connection_string ?? $_SERVER['CONNECTION_STRING'] ?? null) {
+    if (!$connection_string = $host_config->connection_string ?? $_SERVER['JARS_CONNECTION_STRING'] ?? null) {
         $throwError(500, 'Please define connection string in host config or as environment variable');
     }
 

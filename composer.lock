@@ -303,16 +303,16 @@
         },
         {
             "name": "oranfry/jars-client",
-            "version": "1.8.1",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-client.git",
-                "reference": "f64d66a93fcaa9f57f1bbfc9bde29adbc7ae07a3"
+                "reference": "ad4c58686ea4197e7ecef0b20997cb29e873ef49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/f64d66a93fcaa9f57f1bbfc9bde29adbc7ae07a3",
-                "reference": "f64d66a93fcaa9f57f1bbfc9bde29adbc7ae07a3",
+                "url": "https://api.github.com/repos/oranfry/jars-client/zipball/ad4c58686ea4197e7ecef0b20997cb29e873ef49",
+                "reference": "ad4c58686ea4197e7ecef0b20997cb29e873ef49",
                 "shasum": ""
             },
             "require": {
@@ -327,9 +327,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-client/issues",
-                "source": "https://github.com/oranfry/jars-client/tree/1.8.1"
+                "source": "https://github.com/oranfry/jars-client/tree/3.0.1"
             },
-            "time": "2026-07-15T04:14:06+00:00"
+            "time": "2026-07-23T02:29:08+00:00"
         },
         {
             "name": "oranfry/jars-contracts",
@@ -360,16 +360,16 @@
         },
         {
             "name": "oranfry/jars-core",
-            "version": "10.3.3",
+            "version": "10.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/jars-core.git",
-                "reference": "efbde3b9ef1595b943a40d3a3219740ea12924b0"
+                "reference": "7cb5fe36219397ee6aa8b8997030f3b3715acba6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/efbde3b9ef1595b943a40d3a3219740ea12924b0",
-                "reference": "efbde3b9ef1595b943a40d3a3219740ea12924b0",
+                "url": "https://api.github.com/repos/oranfry/jars-core/zipball/7cb5fe36219397ee6aa8b8997030f3b3715acba6",
+                "reference": "7cb5fe36219397ee6aa8b8997030f3b3715acba6",
                 "shasum": ""
             },
             "require": {
@@ -384,9 +384,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/jars-core/issues",
-                "source": "https://github.com/oranfry/jars-core/tree/10.3.3"
+                "source": "https://github.com/oranfry/jars-core/tree/10.3.4"
             },
-            "time": "2026-07-22T20:29:40+00:00"
+            "time": "2026-07-24T09:38:29+00:00"
         },
         {
             "name": "oranfry/jars-http",
@@ -497,16 +497,16 @@
         },
         {
             "name": "oranfry/subsimple",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oranfry/subsimple.git",
-                "reference": "c4b425e85452d4fcd4d0c5e48a68edd8b7b18835"
+                "reference": "3e548ae7d306f5c8148160bb14a257e5ed3338a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/c4b425e85452d4fcd4d0c5e48a68edd8b7b18835",
-                "reference": "c4b425e85452d4fcd4d0c5e48a68edd8b7b18835",
+                "url": "https://api.github.com/repos/oranfry/subsimple/zipball/3e548ae7d306f5c8148160bb14a257e5ed3338a0",
+                "reference": "3e548ae7d306f5c8148160bb14a257e5ed3338a0",
                 "shasum": ""
             },
             "require": {
@@ -521,9 +521,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/oranfry/subsimple/issues",
-                "source": "https://github.com/oranfry/subsimple/tree/3.0.0"
+                "source": "https://github.com/oranfry/subsimple/tree/3.1.0"
             },
-            "time": "2026-07-15T05:33:35+00:00"
+            "time": "2026-07-23T21:46:02+00:00"
         },
         {
             "name": "psr/http-factory",
